@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
   <!--=============== pontoon bridge part ====================-->
-
   <ThingDef ParentName="ResourceBase">
     <defName>sd_bridges_pontoonbridgepart</defName>
     <label>pontoon bridge part</label>
@@ -12,22 +10,21 @@
       <graphicClass>Graphic_Single</graphicClass>
       <color>(140,140,140)</color>
     </graphicData>
-	<stackLimit>400</stackLimit>
+    <stackLimit>400</stackLimit>
     <soundInteract>Standard_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
     <statBases>
-		<MaxHitPoints>350</MaxHitPoints>
-		<MarketValue>2.0</MarketValue>
-		<Mass>10</Mass>
-		<Flammability>1.0</Flammability>
+      <MaxHitPoints>350</MaxHitPoints>
+      <MarketValue>2.0</MarketValue>
+      <Mass>10</Mass>
+      <Flammability>1.0</Flammability>
     </statBases>
     <thingCategories>
       <li>Manufactured</li>
     </thingCategories>
-	<intricate>true</intricate>
-	<tradeTags>
+    <intricate>true</intricate>
+    <tradeTags>
       <li>Exotic</li>
     </tradeTags>
   </ThingDef>
-  
 </Defs>

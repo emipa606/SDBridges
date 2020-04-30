@@ -1,8 +1,6 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-<!--========================= deep water =============================-->
-
+  <!--========================= deep water =============================-->
   <TerrainDef>
     <defName>sd_bridges_fakeWaterDeep</defName>
     <label>fake deep water</label>
@@ -10,23 +8,24 @@
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
     <edgeType>Water</edgeType>
     <renderPrecedence>395</renderPrecedence>
-	<passability>PassThroughOnly</passability>
+    <passability>PassThroughOnly</passability>
     <pathCost>0</pathCost>
     <filthAcceptanceMask>
       <li>Unnatural</li>
     </filthAcceptanceMask>
     <fertility>0</fertility>
     <avoidWander>true</avoidWander>
-    <changeable>true</changeable> <!-- changed the changeable to true -->
-		<holdSnow>false</holdSnow>
-	<affordances>
-	  <li>Bridgeable</li>
+    <changeable>true</changeable>
+    <!-- changed the changeable to true -->
+    <holdSnow>false</holdSnow>
+    <affordances>
+      <li>Bridgeable</li>
     </affordances>
-	<takeSplashes>true</takeSplashes>
+    <takeSplashes>true</takeSplashes>
     <tags>
       <li>Water</li>
     </tags>
-	<tools>
+    <tools>
       <li>
         <label>water</label>
         <capacities>
@@ -37,9 +36,7 @@
       </li>
     </tools>
   </TerrainDef>
-  
- <!--========================= shallow water =============================-->
-
+  <!--========================= shallow water =============================-->
   <TerrainDef>
     <defName>sd_bridges_fakeWaterShallow</defName>
     <label>fake shallow water</label>
@@ -47,25 +44,26 @@
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
     <edgeType>Water</edgeType>
     <renderPrecedence>394</renderPrecedence>
-	<passability>PassThroughOnly</passability>
+    <passability>PassThroughOnly</passability>
     <pathCost>0</pathCost>
     <filthAcceptanceMask>
       <li>Unnatural</li>
     </filthAcceptanceMask>
     <fertility>0</fertility>
     <avoidWander>true</avoidWander>
-    <changeable>true</changeable>    <!-- changed the changeable to true -->
-		<holdSnow>false</holdSnow>
+    <changeable>true</changeable>
+    <!-- changed the changeable to true -->
+    <holdSnow>false</holdSnow>
     <driesTo>Gravel</driesTo>
-	<affordances>
-	  <li>ShallowWater</li>
+    <affordances>
+      <li>ShallowWater</li>
       <li>Bridgeable</li>
     </affordances>
-	<takeSplashes>true</takeSplashes>
+    <takeSplashes>true</takeSplashes>
     <tags>
       <li>Water</li>
     </tags>
-	<tools>
+    <tools>
       <li>
         <label>water</label>
         <capacities>
@@ -76,16 +74,14 @@
       </li>
     </tools>
   </TerrainDef>
-  
-   <!--========================= mud =============================-->
-  
+  <!--========================= mud =============================-->
   <TerrainDef>
     <defName>sd_bridges_fakeMud</defName>
     <label>fake mud</label>
     <texturePath>Terrain/Surfaces/Mud</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>330</renderPrecedence>
-	<passability>PassThroughOnly</passability>
+    <passability>PassThroughOnly</passability>
     <pathCost>0</pathCost>
     <statBases>
       <Beauty>-2</Beauty>
@@ -99,11 +95,12 @@
     </filthAcceptanceMask>
     <avoidWander>true</avoidWander>
     <driesTo>Soil</driesTo>
-	<affordances>
-	  <li>Diggable</li>  <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
+    <affordances>
+      <li>Diggable</li>
+      <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
       <li>Bridgeable</li>
-	</affordances>
-	<tools>
+    </affordances>
+    <tools>
       <li>
         <label>mud</label>
         <capacities>
@@ -113,18 +110,15 @@
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
-
   </TerrainDef>
-  
-     <!--========================= marsh =============================-->
-  
+  <!--========================= marsh =============================-->
   <TerrainDef>
     <defName>sd_bridges_fakeMarsh</defName>
     <label>fake marsh</label>
     <texturePath>Terrain/Surfaces/Marsh</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>325</renderPrecedence>
-	<passability>PassThroughOnly</passability>
+    <passability>PassThroughOnly</passability>
     <pathCost>0</pathCost>
     <statBases>
       <Beauty>-2</Beauty>
@@ -138,12 +132,13 @@
     </filthAcceptanceMask>
     <avoidWander>true</avoidWander>
     <driesTo>Soil</driesTo>
-	<affordances>
-	  <li>Diggable</li>  <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
-	  <li>ShallowWater</li>
+    <affordances>
+      <li>Diggable</li>
+      <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
+      <li>ShallowWater</li>
       <li>Bridgeable</li>
-	</affordances>
-	<tools>
+    </affordances>
+    <tools>
       <li>
         <label>mud</label>
         <capacities>
@@ -153,8 +148,6 @@
         <cooldownTime>1.5</cooldownTime>
       </li>
     </tools>
-	<takeSplashes>true</takeSplashes>
+    <takeSplashes>true</takeSplashes>
   </TerrainDef>
-  
-  
 </Defs>
