@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- recipe "abstract" for making foundation material -->
+
+  <sd_bridges_recipe_foundationmaterial_base.label>make foundation material</sd_bridges_recipe_foundationmaterial_base.label>
+  <sd_bridges_recipe_foundationmaterial_base.description>make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water.</sd_bridges_recipe_foundationmaterial_base.description>
+  <sd_bridges_recipe_foundationmaterial_base.jobString>Making foundation material.</sd_bridges_recipe_foundationmaterial_base.jobString>
+
+
+  <!-- recipe for stonecuttertable, TableStonecutter -->
+
+  <sd_bridges_recipe_foundationmaterial_tablestone.label>make foundation material</sd_bridges_recipe_foundationmaterial_tablestone.label>
+  <sd_bridges_recipe_foundationmaterial_tablestone.description>make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water.</sd_bridges_recipe_foundationmaterial_tablestone.description>
+  <sd_bridges_recipe_foundationmaterial_tablestone.jobString>Making foundation material.</sd_bridges_recipe_foundationmaterial_tablestone.jobString>
+
+
+  <!-- recipe for stonecuttertable, TableStonecutter, 10 times -->
+
+  <sd_bridges_recipe_foundationmaterial_tablestone_10times.label>make foundation material(10)</sd_bridges_recipe_foundationmaterial_tablestone_10times.label>
+  <sd_bridges_recipe_foundationmaterial_tablestone_10times.description>make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water.</sd_bridges_recipe_foundationmaterial_tablestone_10times.description>
+  <sd_bridges_recipe_foundationmaterial_tablestone_10times.jobString>Making foundation material.</sd_bridges_recipe_foundationmaterial_tablestone_10times.jobString>
+
+
+  <!-- recipe for machining table, TableMachining -->
+
+  <sd_bridges_recipe_foundationmaterial_tablemachin.label>make foundation material</sd_bridges_recipe_foundationmaterial_tablemachin.label>
+  <sd_bridges_recipe_foundationmaterial_tablemachin.description>make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water.</sd_bridges_recipe_foundationmaterial_tablemachin.description>
+  <sd_bridges_recipe_foundationmaterial_tablemachin.jobString>Making foundation material.</sd_bridges_recipe_foundationmaterial_tablemachin.jobString>
+
+
+  <!-- recipe for machining table, TableMachining, 10 times -->
+
+  <sd_bridges_recipe_foundationmaterial_tablemachin_10times.label>make foundation material(10)</sd_bridges_recipe_foundationmaterial_tablemachin_10times.label>
+  <sd_bridges_recipe_foundationmaterial_tablemachin_10times.description>make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water.</sd_bridges_recipe_foundationmaterial_tablemachin_10times.description>
+  <sd_bridges_recipe_foundationmaterial_tablemachin_10times.jobString>Making foundation material.</sd_bridges_recipe_foundationmaterial_tablemachin_10times.jobString>
+
+
+</LanguageData>

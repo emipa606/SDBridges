@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- terraform / ground to waterish tiles (mud) -->
+
+  <sd_bridges_terraform_DigUpWater.label>dig up water</sd_bridges_terraform_DigUpWater.label>
+  <sd_bridges_terraform_DigUpWater.description>You colonists will prepare terrain to later terraform it to watertiles. Will create mudy terrain to convert it to shallow water later on.</sd_bridges_terraform_DigUpWater.description>
+  <sd_bridges_terraform_DigUpWater_Blueprint.label>dig up water (blueprint)</sd_bridges_terraform_DigUpWater_Blueprint.label>
+  <sd_bridges_terraform_DigUpWater_Frame.label>dig up water (building)</sd_bridges_terraform_DigUpWater_Frame.label>
+  <sd_bridges_terraform_DigUpWater_Frame.description>You colonists will prepare terrain to later terraform it to watertiles. Will create mudy terrain to convert it to shallow water later on.</sd_bridges_terraform_DigUpWater_Frame.description>
+
+
+  <!-- terraform / waterish tiles (mud) to shallow water -->
+
+  <sd_bridges_terraform_ShallowWater.label>shallow water</sd_bridges_terraform_ShallowWater.label>
+  <sd_bridges_terraform_ShallowWater.description>The shallowest of waters. This can be placed on mud/marsh terrain or on foundation bases to convert them back to shallow water tiles. Shallow water will slow pawns down if they walk over it.</sd_bridges_terraform_ShallowWater.description>
+  <sd_bridges_terraform_ShallowWater_Blueprint.label>shallow water (blueprint)</sd_bridges_terraform_ShallowWater_Blueprint.label>
+  <sd_bridges_terraform_ShallowWater_Frame.label>shallow water (building)</sd_bridges_terraform_ShallowWater_Frame.label>
+  <sd_bridges_terraform_ShallowWater_Frame.description>The shallowest of waters. This can be placed on mud/marsh terrain or on foundation bases to convert them back to shallow water tiles. Shallow water will slow pawns down if they walk over it.</sd_bridges_terraform_ShallowWater_Frame.description>
+
+
+  <!-- terraform / shallow water to deep water -->
+
+  <sd_bridges_terraform_DeepWater.label>deep water</sd_bridges_terraform_DeepWater.label>
+  <sd_bridges_terraform_DeepWater.description>Welcome to the Deep. This can be placed on shallow water. It is impassable!</sd_bridges_terraform_DeepWater.description>
+  <sd_bridges_terraform_DeepWater_Blueprint.label>deep water (blueprint)</sd_bridges_terraform_DeepWater_Blueprint.label>
+  <sd_bridges_terraform_DeepWater_Frame.label>deep water (building)</sd_bridges_terraform_DeepWater_Frame.label>
+  <sd_bridges_terraform_DeepWater_Frame.description>Welcome to the Deep. This can be placed on shallow water. It is impassable!</sd_bridges_terraform_DeepWater_Frame.description>
+
+
+  <!-- terraform / shallow water/mud to marsh -->
+
+  <sd_bridges_terraform_MarshWater.label>Marsh</sd_bridges_terraform_MarshWater.label>
+  <sd_bridges_terraform_MarshWater.description>The marsh makes it hard to walk for your enemies. This can be placed on mud/shallow water terrain or marsh tiles. It can not be placed on deep water. Marsh will slow pawns down if they walk over it.</sd_bridges_terraform_MarshWater.description>
+  <sd_bridges_terraform_MarshWater_Blueprint.label>Marsh (blueprint)</sd_bridges_terraform_MarshWater_Blueprint.label>
+  <sd_bridges_terraform_MarshWater_Frame.label>Marsh (building)</sd_bridges_terraform_MarshWater_Frame.label>
+  <sd_bridges_terraform_MarshWater_Frame.description>The marsh makes it hard to walk for your enemies. This can be placed on mud/shallow water terrain or marsh tiles. It can not be placed on deep water. Marsh will slow pawns down if they walk over it.</sd_bridges_terraform_MarshWater_Frame.description>
+
+
+</LanguageData>

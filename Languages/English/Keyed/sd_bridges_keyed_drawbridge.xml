@@ -13,4 +13,5 @@
   <sd_bridges_placeworker_OnShallowWater_desc>Must be placed on shallow water.</sd_bridges_placeworker_OnShallowWater_desc>
   <sd_bridges_placeworker_NotOnShallowWater_desc>This is already shallow water.</sd_bridges_placeworker_NotOnShallowWater_desc>
   <sd_bridges_placeworker_notonfoundation_desc>You can not place pontoon bridges on foundations.</sd_bridges_placeworker_notonfoundation_desc>
+
 </LanguageData>

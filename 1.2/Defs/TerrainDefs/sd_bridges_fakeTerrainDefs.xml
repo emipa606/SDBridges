@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--========================= deep water =============================-->
+  <TerrainDef>
+    <defName>sd_bridges_fakeWaterDeep</defName>
+    <label>fake deep water</label>
+    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <edgeType>Water</edgeType>
+    <renderPrecedence>395</renderPrecedence>
+    <passability>PassThroughOnly</passability>
+    <pathCost>0</pathCost>
+    <filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+    <changeable>true</changeable>
+    <!-- changed the changeable to true -->
+    <holdSnow>false</holdSnow>
+    <affordances>
+      <li>Bridgeable</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>Water</li>
+    </tags>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= shallow water =============================-->
+  <TerrainDef>
+    <defName>sd_bridges_fakeWaterShallow</defName>
+    <label>fake shallow water</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <edgeType>Water</edgeType>
+    <renderPrecedence>394</renderPrecedence>
+    <passability>PassThroughOnly</passability>
+    <pathCost>0</pathCost>
+    <filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
+    <fertility>0</fertility>
+    <avoidWander>true</avoidWander>
+    <changeable>true</changeable>
+    <!-- changed the changeable to true -->
+    <holdSnow>false</holdSnow>
+    <driesTo>Gravel</driesTo>
+    <affordances>
+      <li>ShallowWater</li>
+      <li>Bridgeable</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>Water</li>
+    </tags>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= mud =============================-->
+  <TerrainDef>
+    <defName>sd_bridges_fakeMud</defName>
+    <label>fake mud</label>
+    <texturePath>Terrain/Surfaces/Mud</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>330</renderPrecedence>
+    <passability>PassThroughOnly</passability>
+    <pathCost>0</pathCost>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
+    <avoidWander>true</avoidWander>
+    <driesTo>Soil</driesTo>
+    <affordances>
+      <li>Diggable</li>
+      <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
+      <li>Bridgeable</li>
+    </affordances>
+    <tools>
+      <li>
+        <label>mud</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>MudInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= marsh =============================-->
+  <TerrainDef>
+    <defName>sd_bridges_fakeMarsh</defName>
+    <label>fake marsh</label>
+    <texturePath>Terrain/Surfaces/Marsh</texturePath>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>325</renderPrecedence>
+    <passability>PassThroughOnly</passability>
+    <pathCost>0</pathCost>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <fertility>0</fertility>
+    <takeFootprints>True</takeFootprints>
+    <filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
+    <avoidWander>true</avoidWander>
+    <driesTo>Soil</driesTo>
+    <affordances>
+      <li>Diggable</li>
+      <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
+      <li>ShallowWater</li>
+      <li>Bridgeable</li>
+    </affordances>
+    <tools>
+      <li>
+        <label>mud</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>MudInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <takeSplashes>true</takeSplashes>
+  </TerrainDef>
+</Defs>
