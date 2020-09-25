@@ -1,28 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- deep water -->
-
-  <sd_bridges_fakeWaterDeep.label>fake deep water</sd_bridges_fakeWaterDeep.label>
-  <sd_bridges_fakeWaterDeep.tools.0.label>water</sd_bridges_fakeWaterDeep.tools.0.label>
-
-
+  <!--<sd_bridges_fakeWaterDeep.label>fake deep water</sd_bridges_fakeWaterDeep.label>-->
+  <!--<sd_bridges_fakeWaterDeep.tools.0.label>water</sd_bridges_fakeWaterDeep.tools.0.label>-->
   <!-- shallow water -->
-
-  <sd_bridges_fakeWaterShallow.label>fake shallow water</sd_bridges_fakeWaterShallow.label>
-  <sd_bridges_fakeWaterShallow.tools.0.label>water</sd_bridges_fakeWaterShallow.tools.0.label>
-
-
+  <!--<sd_bridges_fakeWaterShallow.label>fake shallow water</sd_bridges_fakeWaterShallow.label>-->
+  <!--<sd_bridges_fakeWaterShallow.tools.0.label>water</sd_bridges_fakeWaterShallow.tools.0.label>-->
   <!-- mud -->
-
-  <sd_bridges_fakeMud.label>fake mud</sd_bridges_fakeMud.label>
-  <sd_bridges_fakeMud.tools.0.label>mud</sd_bridges_fakeMud.tools.0.label>
-
-
+  <!--<sd_bridges_fakeMud.label>fake mud</sd_bridges_fakeMud.label>-->
+  <!--<sd_bridges_fakeMud.tools.0.label>mud</sd_bridges_fakeMud.tools.0.label>-->
   <!-- marsh -->
-
-  <sd_bridges_fakeMarsh.label>fake marsh</sd_bridges_fakeMarsh.label>
-  <sd_bridges_fakeMarsh.tools.0.label>mud</sd_bridges_fakeMarsh.tools.0.label>
-
+  <!--<sd_bridges_fakeMarsh.label>fake marsh</sd_bridges_fakeMarsh.label>-->
+  <!--<sd_bridges_fakeMarsh.tools.0.label>mud</sd_bridges_fakeMarsh.tools.0.label>-->
 
 </LanguageData>

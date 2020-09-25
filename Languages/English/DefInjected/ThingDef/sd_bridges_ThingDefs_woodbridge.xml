@@ -1,22 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- bridge on water -->
-
-  <sd_bridges_seabridge.label>sea bridge</sd_bridges_seabridge.label>
-  <sd_bridges_seabridge.description>This bridge can only be placed on a foundation base. It will counter the walking impairment from the foundation base. Can be deconstructed to put up a platform on the foundation base.</sd_bridges_seabridge.description>
-  <sd_bridges_seabridge_Blueprint.label>sea bridge (blueprint)</sd_bridges_seabridge_Blueprint.label>
-  <sd_bridges_seabridge_Frame.label>sea bridge (building)</sd_bridges_seabridge_Frame.label>
-  <sd_bridges_seabridge_Frame.description>This bridge can only be placed on a foundation base. It will counter the walking impairment from the foundation base. Can be deconstructed to put up a platform on the foundation base.</sd_bridges_seabridge_Frame.description>
-
-
+  <!--<sd_bridges_seabridge.label>sea bridge</sd_bridges_seabridge.label>-->
+  <!--<sd_bridges_seabridge.description>This bridge can only be placed on a foundation base. It will counter the walking impairment from the foundation base. Can be deconstructed to put up a platform on the foundation base.</sd_bridges_seabridge.description>-->
+  <!--<sd_bridges_seabridge_Blueprint.label>sea bridge (blueprint)</sd_bridges_seabridge_Blueprint.label>-->
+  <!--<sd_bridges_seabridge_Frame.label>sea bridge (building)</sd_bridges_seabridge_Frame.label>-->
+  <!--<sd_bridges_seabridge_Frame.description>This bridge can only be placed on a foundation base. It will counter the walking impairment from the foundation base. Can be deconstructed to put up a platform on the foundation base.</sd_bridges_seabridge_Frame.description>-->
   <!-- bridge on land -->
-
-  <sd_bridges_landbridge.label>land bridge</sd_bridges_landbridge.label>
-  <sd_bridges_landbridge.description>This bridge can be placed on all buildable land tiles supporting light structures. It has a slight movement bonus to mitigate the decrease from natural floors. If you place normal floors under it you can speed your pawns up to have a movement bonus over 100%.</sd_bridges_landbridge.description>
-  <sd_bridges_landbridge_Blueprint.label>land bridge (blueprint)</sd_bridges_landbridge_Blueprint.label>
-  <sd_bridges_landbridge_Frame.label>land bridge (building)</sd_bridges_landbridge_Frame.label>
-  <sd_bridges_landbridge_Frame.description>This bridge can be placed on all buildable land tiles supporting light structures. It has a slight movement bonus to mitigate the decrease from natural floors. If you place normal floors under it you can speed your pawns up to have a movement bonus over 100%.</sd_bridges_landbridge_Frame.description>
-
+  <!--<sd_bridges_landbridge.label>land bridge</sd_bridges_landbridge.label>-->
+  <!--<sd_bridges_landbridge.description>This bridge can be placed on all buildable land tiles supporting light structures. It has a slight movement bonus to mitigate the decrease from natural floors. If you place normal floors under it you can speed your pawns up to have a movement bonus over 100%.</sd_bridges_landbridge.description>-->
+  <!--<sd_bridges_landbridge_Blueprint.label>land bridge (blueprint)</sd_bridges_landbridge_Blueprint.label>-->
+  <!--<sd_bridges_landbridge_Frame.label>land bridge (building)</sd_bridges_landbridge_Frame.label>-->
+  <!--<sd_bridges_landbridge_Frame.description>This bridge can be placed on all buildable land tiles supporting light structures. It has a slight movement bonus to mitigate the decrease from natural floors. If you place normal floors under it you can speed your pawns up to have a movement bonus over 100%.</sd_bridges_landbridge_Frame.description>-->
 
 </LanguageData>

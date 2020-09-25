@@ -1,19 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- drawbridge up -->
-
-  <sd_bridges_drawbridge_up.label>draw bridge up</sd_bridges_drawbridge_up.label>
-  <sd_bridges_drawbridge_up.description>drawbridge up.</sd_bridges_drawbridge_up.description>
-
-
+  <!--<sd_bridges_drawbridge_up.label>draw bridge up</sd_bridges_drawbridge_up.label>-->
+  <!--<sd_bridges_drawbridge_up.description>drawbridge up.</sd_bridges_drawbridge_up.description>-->
   <!-- drawbridge down -->
-
-  <sd_bridges_drawbridge_down.label>draw bridge up</sd_bridges_drawbridge_down.label>
-  <sd_bridges_drawbridge_down.description>drawbridge down.</sd_bridges_drawbridge_down.description>
-  <sd_bridges_drawbridge_down_Blueprint.label>draw bridge up (blueprint)</sd_bridges_drawbridge_down_Blueprint.label>
-  <sd_bridges_drawbridge_down_Frame.label>draw bridge up (building)</sd_bridges_drawbridge_down_Frame.label>
-  <sd_bridges_drawbridge_down_Frame.description>drawbridge down.</sd_bridges_drawbridge_down_Frame.description>
-
+  <!--<sd_bridges_drawbridge_down.label>draw bridge up</sd_bridges_drawbridge_down.label>-->
+  <!--<sd_bridges_drawbridge_down.description>drawbridge down.</sd_bridges_drawbridge_down.description>-->
+  <!--<sd_bridges_drawbridge_down_Blueprint.label>draw bridge up (blueprint)</sd_bridges_drawbridge_down_Blueprint.label>-->
+  <!--<sd_bridges_drawbridge_down_Frame.label>draw bridge up (building)</sd_bridges_drawbridge_down_Frame.label>-->
+  <!--<sd_bridges_drawbridge_down_Frame.description>drawbridge down.</sd_bridges_drawbridge_down_Frame.description>-->
 
 </LanguageData>

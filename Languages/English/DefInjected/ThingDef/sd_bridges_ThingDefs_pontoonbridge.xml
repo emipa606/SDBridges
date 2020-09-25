@@ -1,13 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- pontoon bridge -->
-
-  <sd_bridges_pontoonbridge.label>pontoon bridge</sd_bridges_pontoonbridge.label>
-  <sd_bridges_pontoonbridge.description>The pontoon bridge can only be placed on water/mud/marsh. It will counter the walking impairment from the terrain. You can not stand on it. It's only a fast water crossing solution.</sd_bridges_pontoonbridge.description>
-  <sd_bridges_pontoonbridge_Blueprint.label>pontoon bridge (blueprint)</sd_bridges_pontoonbridge_Blueprint.label>
-  <sd_bridges_pontoonbridge_Frame.label>pontoon bridge (building)</sd_bridges_pontoonbridge_Frame.label>
-  <sd_bridges_pontoonbridge_Frame.description>The pontoon bridge can only be placed on water/mud/marsh. It will counter the walking impairment from the terrain. You can not stand on it. It's only a fast water crossing solution.</sd_bridges_pontoonbridge_Frame.description>
-
+  <!--<sd_bridges_pontoonbridge.label>pontoon bridge</sd_bridges_pontoonbridge.label>-->
+  <!--<sd_bridges_pontoonbridge.description>The pontoon bridge can only be placed on water/mud/marsh. It will counter the walking impairment from the terrain. You can not stand on it. It's only a fast water crossing solution.</sd_bridges_pontoonbridge.description>-->
+  <!--<sd_bridges_pontoonbridge_Blueprint.label>pontoon bridge (blueprint)</sd_bridges_pontoonbridge_Blueprint.label>-->
+  <!--<sd_bridges_pontoonbridge_Frame.label>pontoon bridge (building)</sd_bridges_pontoonbridge_Frame.label>-->
+  <!--<sd_bridges_pontoonbridge_Frame.description>The pontoon bridge can only be placed on water/mud/marsh. It will counter the walking impairment from the terrain. You can not stand on it. It's only a fast water crossing solution.</sd_bridges_pontoonbridge_Frame.description>-->
 
 </LanguageData>
