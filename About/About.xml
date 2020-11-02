@@ -11,42 +11,43 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>Update of sulusdacors mod
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of sulusdacors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=788610933
 
-[img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
-
-Support-chat:
-https://invite.gg/Mlie
-
-Non-steam version:
-https://github.com/emipa606/SDBridges
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/SDBridges][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 not doing anymore updates for any rimworld mods, please feel free to update and upload the mods on steam, i dont mind.
-"bridges"
+[h1]"bridges"[/h1]
 
 - adds 3 research projects (bridges, drawbridge, terraforming)
-- adds 1 linkable woodbridge type (sea + land bridge)
-- adds 1 linkable pontoon bridge (can only be build on water/mud/marsh)
-- adds 1 drawbridge
-- adds foundation to build on shallow water types, platform to build on your foundation for structurs later on
-- adds the option to terrafrom terrain from solid ground to deep water or from deep water to solid ground (needs several steps)
-- adds a terraforming category in the architect menu
-- adds 2 materials (foundation material and pontoons), recipes for both at stonecutter/machining table, single and bulk(10)
+   - adds 1 linkable woodbridge type (sea + land bridge)
+   - adds 1 linkable pontoon bridge (can only be build on water/mud/marsh)
+   - adds 1 drawbridge
+   - adds foundation to build on shallow water types, platform to build on your foundation for structurs later on
+   - adds the option to terrafrom terrain from solid ground to deep water or from deep water to solid ground (needs several steps)
+   - adds a terraforming category in the architect menu
+   - adds 2 materials (foundation material and pontoons), recipes for both at stonecutter/machining table, single and bulk(10)
 
+   
+	This mod does NOT add any growable soil to place, please use other mods for this.
+	
+	For more information or questions about compatibility please read the extended description in the forum thread.
+	(with patchoperations it should work fine with most mods currently)
+	
+	Keep in mind that adding "unpassable" terrain screws the AI of pawns.
+	-&gt; use at your own discretion ;) 
 
-This mod does NOT add any growable soil to place, please use other mods for this.
-
-For more information or questions about compatibility please read the extended description in the forum thread.
-(with patchoperations it should work fine with most mods currently)
-
-Keep in mind that adding "unpassable" terrain screws the AI of pawns.
--&gt; use at your own discretion ;)
-
-Details:
+[h1]Details:[/h1]
 
 Some words of caution (again i know): The mod enables you to place impassable, indestructible terrain (deep water). This will potentially break the Ai of your enemys, makes raids a joke and so on. so as always up to you to use or abuse. on the plus side, you can build nice bases^^
 
@@ -54,7 +55,7 @@ The woodbridges added by the game can be build out of 20 stuff (wood,stones,meta
 
 The pontoon bridge is build out of 2 stuff (wood/metal/stone) and 1 pontoon. So your walkway and the swimming part. Pawns can only walk over pontoon bridges, but not stand on them. They are fast to build. The main bulk of the work goes in producing the pontoons. You can only build it on water type tiles(shallow water/marsh/deep water/mud). Pontoon bridge and woodbridge are linkable. The Pontoon bridge negates all walking impairments of the water tiles. It should not be made minifieable by other mods (will lead to problems,see compability section below).
 
-The material/item recipes are at the stonecutter/maching table. single and bulk(10). recipes at maching table are less work intensive. the recipes should unlock after you have the bridges research. Foundation material converts 3 stuff (stone,metal,wood) and 1 metal to 4 foundation material, so basiclly a 1:1. (it's just a work around to be able to make them out of various materials). The pontoons are 10 metal/wood to 1 pontoon. You can trade pontoons with exotic goods traders or traders dealing with similar wares(exotic tradetag). This is to have an option to get rid of the pontoons. All recipes have as a preset the normal wood,steel and the vanilla stonetypes enabled and other stuff disabled.
+The material/item recipes are at the stonecutter/maching table. single and bulk(10). recipes at maching table are less work intensive. the recipes should unlock after you have the bridges research. Foundation material converts 3 stuff (stone,metal,wood) and 1 metal to 4 foundation material, so basiclly a 1:1. (it's just a work around to be able to make them out of various materials). The pontoons are 10 metal/wood to 1 pontoon. You can trade pontoons with exotic goods traders or traders dealing with similar  wares(exotic tradetag). This is to have an option to get rid of the pontoons. All recipes have as a preset the normal wood,steel and the vanilla stonetypes enabled and other stuff disabled.
 
 The research is divided in the bridges part (unlocks foundation, platform, wood bridges, pontoon bridge) and the terraforming part (options: dig up water, place shallow water, place deep water). The bridges research is neolithic tech level. the terraforming is medieval tech level. i wanted both to be a lower tech level to be able to use these in low tech runs (castle building^^).
 
@@ -62,18 +63,18 @@ All terrafom options just cost work. To terraform ground to deepwater, you have 
 
 the terrain tiles added are basiclly floors. which mean you can remove them with the "remove floors" command. this will result in the original terrain. the only exception if found is the original deep water will turn to sand terrain. you can terraform deep water with this (faster) by just building shallow water and then remove the floor. as always use or abuse how you like ;)
 
-if you want the options to terraform up to growable soil use the vegetable garden[ludeon.com] or tilled soil[ludeon.com] mod. The vegetable garden mod needs to be loaded before the bridges mod in your load order(override some same terraindefs). the tilled soil mod should not matter, since i dont saw any overlap there in what it adds.
+if you want the options to terraform up to growable soil use the [url=https://ludeon.com/forums/index.php?topic=12934.0]vegetable garden[/url] or [url=https://ludeon.com/forums/index.php?topic=11009.0]tilled soil[/url] mod. The vegetable garden mod needs to be loaded before the bridges mod in your load order(override some same terraindefs). the tilled soil mod should not matter, since i dont saw any overlap there in what it adds.
 
-(should be fixed with patchoperations) Due to how the game identifies things the Fishing Pier add by the Mod Fishindustry[ludeon.com] is not compatible with the watertiles added by this mod. you can use my mod prepare for fishing[ludeon.com] to make it compatible.
+(should be fixed with patchoperations) Due to how the game identifies things the Fishing Pier add by the Mod [url=https://ludeon.com/forums/index.php?topic=13172.0]Fishindustry[/url] is not compatible with the watertiles added by this mod. you can use my mod [url=https://ludeon.com/forums/index.php?topic=26276.msg276872#msg276872]prepare for fishing[/url] to make it compatible.
 
 i wrote a short paragraph concerning the issues/compatibility with this mod in the forum thread for it.(mostly for other mods/modders interesting i guess). if you interested in that.
 
-Ludeon forum topic:
+[i]Ludeon forum topic:[/i]
 https://ludeon.com/forums/index.php?topic=26276
 
-Dropbox: https://www.dropbox.com/s/omt0dnf7tsmctm1/sd_bridges_v1.7z?dl=0
+[b]Dropbox:[/b] https://www.dropbox.com/s/omt0dnf7tsmctm1/sd_bridges_v1.7z?dl=0
 
-GitHub: https://github.com/sulusdacor/sd_bridges/releases
+[b]GitHub:[/b] https://github.com/sulusdacor/sd_bridges/releases
 
 source code for modders: https://www.dropbox.com/s/8g2aaapw9yk53eg/sd_bridges_b18_source.7z?dl=0
 

@@ -28,7 +28,6 @@ namespace sd_bridges
 			command_Action.disabled = false;
 			command_Action.icon = Textures.drawbridge_down;
 			yield return command_Action;
-			yield return command_Action;
 			if (this.FabricatedMethod9() != null)
 			{
 				foreach (Gizmo gizmo in this.FabricatedMethod9())
@@ -125,7 +124,7 @@ namespace sd_bridges
 			if (terrainDef == TerrainDef.Named("sd_bridges_DeepWater"))
 			{
 				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeWaterShallowDef);
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeDeepWaterDef);
 			}
 		}
 
