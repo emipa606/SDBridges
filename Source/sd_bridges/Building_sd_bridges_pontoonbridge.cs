@@ -13,70 +13,70 @@ namespace sd_bridges
 			TerrainDef terrainDef = map.terrainGrid.TerrainAt(base.Position);
 			if (terrainDef == TerrainDef.Named("Mud"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeMudDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeMudDef);
 			}
 			if (terrainDef == TerrainDef.Named("Marsh"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeMarshDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeMarshDef);
 			}
 			if (terrainDef == TerrainDef.Named("WaterShallow"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeWaterShallowDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeWaterShallowDef);
 			}
 			if (terrainDef == TerrainDef.Named("WaterOceanShallow"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeWaterShallowDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeWaterOceanShallowDef);
 			}
 			if (terrainDef == TerrainDef.Named("WaterMovingShallow"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeWaterShallowDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeWaterMovingShallowDef);
 			}
 			if (terrainDef == TerrainDef.Named("WaterDeep"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeDeepWaterDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeDeepWaterDef);
 			}
 			if (terrainDef == TerrainDef.Named("WaterOceanDeep"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeDeepWaterDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeWaterOceanDeepDef);
 			}
 			if (terrainDef == TerrainDef.Named("WaterMovingChestDeep"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeDeepWaterDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeWaterMovingChestDeepDef);
 			}
 			if (terrainDef == TerrainDef.Named("sd_bridges_DigUpWater"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeMudDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeMudDef);
 			}
 			if (terrainDef == TerrainDef.Named("sd_bridges_MarshWater"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeMarshDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeMarshDef);
 			}
 			if (terrainDef == TerrainDef.Named("sd_bridges_ShallowWater"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeWaterShallowDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeWaterShallowDef);
 			}
 			if (terrainDef == TerrainDef.Named("sd_bridges_DeepWater"))
 			{
-				this.TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
-				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.sd_bridges_fakeWaterShallowDef);
+				TerrainTypeAtBaseCellDefAsString = terrainDef.ToString();
+				map.terrainGrid.SetTerrain(base.Position, Util_sd_bridges.Sd_bridges_fakeWaterShallowDef);
 			}
 		}
 
 		// Token: 0x0600000A RID: 10 RVA: 0x00002599 File Offset: 0x00001599
 		public override void Destroy(DestroyMode mode = DestroyMode.Vanish)
 		{
-			base.Map.terrainGrid.SetTerrain(base.Position, TerrainDef.Named(this.TerrainTypeAtBaseCellDefAsString));
+			base.Map.terrainGrid.SetTerrain(base.Position, TerrainDef.Named(TerrainTypeAtBaseCellDefAsString));
 			base.Destroy(mode);
 		}
 
@@ -84,7 +84,7 @@ namespace sd_bridges
 		public override void ExposeData()
 		{
 			base.ExposeData();
-			Scribe_Values.Look<string>(ref this.TerrainTypeAtBaseCellDefAsString, "TerrainTypeAtBaseCellDefAsString", null, false);
+			Scribe_Values.Look<string>(ref TerrainTypeAtBaseCellDefAsString, "TerrainTypeAtBaseCellDefAsString", null, false);
 		}
 
 		// Token: 0x04000001 RID: 1

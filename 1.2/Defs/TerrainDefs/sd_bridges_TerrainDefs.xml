@@ -149,6 +149,48 @@
       <li>Water</li>
     </tags>
   </TerrainDef>
+  <TerrainDef>
+    <defName>sd_bridges_ShallowMovingWater</defName>
+    <label>shallow moving water</label>
+    <renderPrecedence>398</renderPrecedence>
+    <description>The shallowest of moving waters. This can be placed on mud/marsh terrain or on foundation bases to convert them back to shallow water tiles. Shallow water will slow pawns down if they walk over it.
+	
+	Can be removed with the remove floor order to restore the default map terrain. The exception is original deep water will become sand when removing floors over it.</description>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <!--===== <layerable>true</layerable> ====-->
+    <statBases>
+      <WorkToBuild>5000</WorkToBuild>
+    </statBases>
+    <edgeType>Water</edgeType>
+    <pathCost>12</pathCost>
+    <filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
+    <avoidWander>true</avoidWander>
+    <holdSnow>false</holdSnow>
+    <driesTo>Gravel</driesTo>
+    <affordances>
+      <li>Bridgeable</li>
+    </affordances>
+    <constructEffect>ConstructDirt</constructEffect>
+    <fertility>0</fertility>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <placeWorkers>
+      <li>sd_bridges.PlaceWorker_NotOnShallowWater</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>sd_bridges_research_terraforming</li>
+    </researchPrerequisites>
+    <uiIconPath>sd_bridges/menu_icons/sd_bridges_ShallowWater_menuicon</uiIconPath>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>River</li>
+    </tags>
+    <waterDepthShaderParameters>
+      <_UseWaterOffset>1</_UseWaterOffset>
+    </waterDepthShaderParameters>
+  </TerrainDef>
   <!--========================= terraform / shallow water to deep water =============================-->
   <TerrainDef>
     <defName>sd_bridges_DeepWater</defName>
@@ -189,6 +231,48 @@
     <takeSplashes>true</takeSplashes>
     <tags>
       <li>Water</li>
+    </tags>
+  </TerrainDef>
+  <!--========================= terraform / shallow water to deep water =============================-->
+  <TerrainDef>
+    <defName>sd_bridges_ChestDeepMovingWater</defName>
+    <label>chest-deep moving water</label>
+    <renderPrecedence>399</renderPrecedence>
+    <description>Welcome to the Deep. This can be placed on shallow moving water. It is impassable!
+	
+	Can be removed with the remove floor order to restore the default map terrain. The exception is original deep water will become sand when removing floors over it.</description>
+    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <!--===== <layerable>true</layerable> ====-->
+    <statBases>
+      <WorkToBuild>10000</WorkToBuild>
+    </statBases>
+    <edgeType>Water</edgeType>
+    <passability>Impassable</passability>
+    <pathCost>300</pathCost>
+    <filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
+    <avoidWander>true</avoidWander>
+    <changeable>true</changeable>
+    <holdSnow>false</holdSnow>
+    <driesTo>Gravel</driesTo>
+    <affordances>
+      <li>Bridgeable</li>
+    </affordances>
+    <constructEffect>ConstructDirt</constructEffect>
+    <fertility>0</fertility>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <placeWorkers>
+      <li>sd_bridges.PlaceWorker_OnShallowWater</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>sd_bridges_research_terraforming</li>
+    </researchPrerequisites>
+    <uiIconPath>sd_bridges/menu_icons/sd_bridges_DeepWater_menuicon</uiIconPath>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>River</li>
     </tags>
   </TerrainDef>
   <!--========================= terraform / shallow water/mud to marsh =============================-->

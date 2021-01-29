@@ -30,5 +30,4 @@
   <!--<sd_bridges_MarshWater.description>The marsh makes it hard to walk for your enemies. This can be placed on mud/shallow water terrain or marsh tiles. It can not be placed on deep water. Marsh will slow pawns down if they walk over it.
 	
 	Can be removed with the remove floor order to restore the default map terrain. The exception is original deep water will become sand when removing floors over it.</sd_bridges_MarshWater.description>-->
-
 </LanguageData>

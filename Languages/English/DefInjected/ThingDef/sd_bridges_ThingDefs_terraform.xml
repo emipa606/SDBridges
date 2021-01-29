@@ -24,5 +24,4 @@
   <!--<sd_bridges_terraform_MarshWater_Blueprint.label>Marsh (blueprint)</sd_bridges_terraform_MarshWater_Blueprint.label>-->
   <!--<sd_bridges_terraform_MarshWater_Frame.label>Marsh (building)</sd_bridges_terraform_MarshWater_Frame.label>-->
   <!--<sd_bridges_terraform_MarshWater_Frame.description>The marsh makes it hard to walk for your enemies. This can be placed on mud/shallow water terrain or marsh tiles. It can not be placed on deep water. Marsh will slow pawns down if they walk over it.</sd_bridges_terraform_MarshWater_Frame.description>-->
-
 </LanguageData>

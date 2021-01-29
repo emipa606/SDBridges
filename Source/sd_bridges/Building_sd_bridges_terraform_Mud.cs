@@ -12,7 +12,7 @@ namespace sd_bridges
 			IntVec3 position = base.Position;
 			base.SpawnSetup(map, respawningAfterLoad);
 			base.Map.terrainGrid.SetTerrain(position, TerrainDef.Named("Mud"));
-			this.Destroy(DestroyMode.Vanish);
+			Destroy(DestroyMode.Vanish);
 		}
 	}
 }

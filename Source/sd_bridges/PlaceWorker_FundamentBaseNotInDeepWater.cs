@@ -7,7 +7,7 @@ namespace sd_bridges
 	public class PlaceWorker_FundamentBaseNotInDeepWater : PlaceWorker
 	{
 		// Token: 0x06000001 RID: 1 RVA: 0x00002050 File Offset: 0x00001050
-		public virtual AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null)
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null)
 		{
 			TerrainDef named = DefDatabase<TerrainDef>.GetNamed("WaterDeep", true);
 			TerrainDef named2 = DefDatabase<TerrainDef>.GetNamed("WaterOceanDeep", true);

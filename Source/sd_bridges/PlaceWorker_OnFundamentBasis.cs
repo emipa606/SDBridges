@@ -7,7 +7,7 @@ namespace sd_bridges
 	public class PlaceWorker_OnFundamentBasis : PlaceWorker
 	{
 		// Token: 0x06000003 RID: 3 RVA: 0x00002104 File Offset: 0x00001104
-		public virtual AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null)
+		public override AcceptanceReport AllowsPlacing(BuildableDef checkingDef, IntVec3 loc, Rot4 rot, Map map, Thing thingToIgnore = null, Thing thing = null)
 		{
 			TerrainDef named = DefDatabase<TerrainDef>.GetNamed("sd_bridges_FundamentBase", true);
 			AcceptanceReport result;

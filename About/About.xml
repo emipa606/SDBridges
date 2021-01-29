@@ -45,7 +45,7 @@ not doing anymore updates for any rimworld mods, please feel free to update and 
 	(with patchoperations it should work fine with most mods currently)
 	
 	Keep in mind that adding "unpassable" terrain screws the AI of pawns.
-	-&gt; use at your own discretion ;) 
+	-> use at your own discretion ;) 
 
 [h1]Details:[/h1]
 
@@ -74,10 +74,21 @@ https://ludeon.com/forums/index.php?topic=26276
 
 [b]Dropbox:[/b] https://www.dropbox.com/s/omt0dnf7tsmctm1/sd_bridges_v1.7z?dl=0
 
-[b]GitHub:[/b] https://github.com/sulusdacor/sd_bridges/releases
-
 source code for modders: https://www.dropbox.com/s/8g2aaapw9yk53eg/sd_bridges_b18_source.7z?dl=0
 
 Dropbox link to folder with old mods in forum topic for the mod.
-Changelog in forumtopic or about folder of mod.</description>
+Changelog in forumtopic or about folder of mod.
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+

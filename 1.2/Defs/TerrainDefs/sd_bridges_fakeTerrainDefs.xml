@@ -1,23 +1,46 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <!--========================= deep water =============================-->
-  <TerrainDef>
-    <defName>sd_bridges_fakeWaterDeep</defName>
-    <label>fake deep water</label>
-    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
-    <waterDepthShader>Map/WaterDepth</waterDepthShader>
-    <edgeType>Water</edgeType>
-    <renderPrecedence>395</renderPrecedence>
+  <TerrainDef Abstract="True" Name="FakeWaterBase" ParentName="WaterBase">
     <passability>PassThroughOnly</passability>
     <pathCost>0</pathCost>
     <filthAcceptanceMask>
       <li>Unnatural</li>
     </filthAcceptanceMask>
-    <fertility>0</fertility>
-    <avoidWander>true</avoidWander>
-    <changeable>true</changeable>
     <!-- changed the changeable to true -->
-    <holdSnow>false</holdSnow>
+    <changeable>true</changeable>
+  </TerrainDef>
+  <!--========================= deep water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterDeep</defName>
+    <label>fake deep water</label>
+    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>395</renderPrecedence>
+    <affordances>
+      <li>Bridgeable</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>Water</li>
+    </tags>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= deep water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterOceanDeep</defName>
+    <label>fake deep ocean water</label>
+    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>397</renderPrecedence>
     <affordances>
       <li>Bridgeable</li>
     </affordances>
@@ -37,23 +60,32 @@
     </tools>
   </TerrainDef>
   <!--========================= shallow water =============================-->
-  <TerrainDef>
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterMovingChestDeep</defName>
+    <label>fake chest-deep moving water</label>
+    <texturePath>Terrain/Surfaces/WaterChestDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <pathCost>42</pathCost>
+    <renderPrecedence>399</renderPrecedence>
+    <affordances>
+      <li>Bridgeable</li>
+      <li>MovingFluid</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>River</li>
+    </tags>
+    <waterDepthShaderParameters>
+      <_UseWaterOffset>1</_UseWaterOffset>
+    </waterDepthShaderParameters>
+  </TerrainDef>
+  <!--========================= shallow water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
     <defName>sd_bridges_fakeWaterShallow</defName>
     <label>fake shallow water</label>
     <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
     <waterDepthShader>Map/WaterDepth</waterDepthShader>
-    <edgeType>Water</edgeType>
     <renderPrecedence>394</renderPrecedence>
-    <passability>PassThroughOnly</passability>
-    <pathCost>0</pathCost>
-    <filthAcceptanceMask>
-      <li>Unnatural</li>
-    </filthAcceptanceMask>
-    <fertility>0</fertility>
-    <avoidWander>true</avoidWander>
-    <changeable>true</changeable>
-    <!-- changed the changeable to true -->
-    <holdSnow>false</holdSnow>
     <driesTo>Gravel</driesTo>
     <affordances>
       <li>ShallowWater</li>
@@ -74,26 +106,76 @@
       </li>
     </tools>
   </TerrainDef>
+  <!--========================= shallow water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterOceanShallow</defName>
+    <label>fake shallow ocean water</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>396</renderPrecedence>
+    <driesTo>Gravel</driesTo>
+    <affordances>
+      <li>ShallowWater</li>
+      <li>Bridgeable</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>Water</li>
+    </tags>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= shallow water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterMovingShallow</defName>
+    <label>fake shallow moving water</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>398</renderPrecedence>
+    <driesTo>Gravel</driesTo>
+    <affordances>
+      <li>ShallowWater</li>
+      <li>Bridgeable</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>River</li>
+    </tags>
+    <waterDepthShaderParameters>
+      <_UseWaterOffset>1</_UseWaterOffset>
+    </waterDepthShaderParameters>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
   <!--========================= mud =============================-->
-  <TerrainDef>
+  <TerrainDef ParentName="FakeWaterBase">
     <defName>sd_bridges_fakeMud</defName>
     <label>fake mud</label>
     <texturePath>Terrain/Surfaces/Mud</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>330</renderPrecedence>
-    <passability>PassThroughOnly</passability>
-    <pathCost>0</pathCost>
     <statBases>
       <Beauty>-2</Beauty>
       <Cleanliness>-2</Cleanliness>
     </statBases>
     <generatedFilth>Filth_Dirt</generatedFilth>
-    <fertility>0</fertility>
     <takeFootprints>True</takeFootprints>
-    <filthAcceptanceMask>
-      <li>Unnatural</li>
-    </filthAcceptanceMask>
-    <avoidWander>true</avoidWander>
     <driesTo>Soil</driesTo>
     <affordances>
       <li>Diggable</li>
@@ -112,25 +194,18 @@
     </tools>
   </TerrainDef>
   <!--========================= marsh =============================-->
-  <TerrainDef>
+  <TerrainDef ParentName="FakeWaterBase">
     <defName>sd_bridges_fakeMarsh</defName>
     <label>fake marsh</label>
     <texturePath>Terrain/Surfaces/Marsh</texturePath>
     <edgeType>FadeRough</edgeType>
     <renderPrecedence>325</renderPrecedence>
-    <passability>PassThroughOnly</passability>
-    <pathCost>0</pathCost>
     <statBases>
       <Beauty>-2</Beauty>
       <Cleanliness>-2</Cleanliness>
     </statBases>
     <generatedFilth>Filth_Dirt</generatedFilth>
-    <fertility>0</fertility>
     <takeFootprints>True</takeFootprints>
-    <filthAcceptanceMask>
-      <li>Unnatural</li>
-    </filthAcceptanceMask>
-    <avoidWander>true</avoidWander>
     <driesTo>Soil</driesTo>
     <affordances>
       <li>Diggable</li>

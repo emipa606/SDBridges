@@ -12,5 +12,4 @@
   <!--<sd_bridges_landbridge_Blueprint.label>land bridge (blueprint)</sd_bridges_landbridge_Blueprint.label>-->
   <!--<sd_bridges_landbridge_Frame.label>land bridge (building)</sd_bridges_landbridge_Frame.label>-->
   <!--<sd_bridges_landbridge_Frame.description>This bridge can be placed on all buildable land tiles supporting light structures. It has a slight movement bonus to mitigate the decrease from natural floors. If you place normal floors under it you can speed your pawns up to have a movement bonus over 100%.</sd_bridges_landbridge_Frame.description>-->
-
 </LanguageData>
