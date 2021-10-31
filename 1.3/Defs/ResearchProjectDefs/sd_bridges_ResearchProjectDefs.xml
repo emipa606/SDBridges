@@ -8,9 +8,8 @@
 		Enables your colonists to place foundations in shallow water. On these you can place bridges or platforms. Unlocks recipes to produce foundation material at stonecutters and machining table.</description>
     <baseCost>500</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewX>1</researchViewX>
-    <researchViewY>1</researchViewY>
-    <tab>sd_bridges_ResearchTab</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>sd_bridges_research_terraforming</defName>
@@ -23,9 +22,8 @@
     <prerequisites>
       <li>sd_bridges_research_bridge</li>
     </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>1</researchViewY>
-    <tab>sd_bridges_ResearchTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>1.20</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>sd_bridges_research_drawbridge</defName>
@@ -36,8 +34,7 @@
     <prerequisites>
       <li>sd_bridges_research_bridge</li>
     </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>2</researchViewY>
-    <tab>sd_bridges_ResearchTab</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.55</researchViewY>
   </ResearchProjectDef>
 </Defs>
