@@ -1,17 +1,14 @@
-﻿using Verse;
+using Verse;
 
-namespace sd_bridges
+namespace sd_bridges;
+
+public class Building_sd_bridges_terraform_Marsh : Building
 {
-    // Token: 0x02000011 RID: 17
-    public class Building_sd_bridges_terraform_Marsh : Building
+    public override void SpawnSetup(Map map, bool respawningAfterLoad)
     {
-        // Token: 0x0600002F RID: 47 RVA: 0x00003B28 File Offset: 0x00002B28
-        public override void SpawnSetup(Map map, bool respawningAfterLoad)
-        {
-            var position = Position;
-            base.SpawnSetup(map, respawningAfterLoad);
-            Map.terrainGrid.SetTerrain(position, TerrainDef.Named("Marsh"));
-            Destroy();
-        }
+        var position = Position;
+        base.SpawnSetup(map, respawningAfterLoad);
+        Map.terrainGrid.SetTerrain(position, TerrainDef.Named("Marsh"));
+        Destroy();
     }
 }

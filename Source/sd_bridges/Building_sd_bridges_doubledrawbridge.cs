@@ -5,13 +5,13 @@ using Verse.Sound;
 namespace sd_bridges;
 
 [StaticConstructorOnStartup]
-public abstract class Building_sd_bridges_drawbridge : Building
+public abstract class Building_sd_bridges_doubledrawbridge : Building
 {
-    public static readonly ThingDef sd_bridges_drawbridge_up =
-        DefDatabase<ThingDef>.GetNamed("sd_bridges_drawbridge_up");
+    public static readonly ThingDef sd_bridges_doubledrawbridge_up =
+        DefDatabase<ThingDef>.GetNamed("sd_bridges_doubledrawbridge_up");
 
-    public static readonly ThingDef sd_bridges_drawbridge_down =
-        DefDatabase<ThingDef>.GetNamed("sd_bridges_drawbridge_down");
+    public static readonly ThingDef sd_bridges_doubledrawbridge_down =
+        DefDatabase<ThingDef>.GetNamed("sd_bridges_doubledrawbridge_down");
 
     private static readonly SoundDef sound = SoundDef.Named("ChunkRock_Drop");
 

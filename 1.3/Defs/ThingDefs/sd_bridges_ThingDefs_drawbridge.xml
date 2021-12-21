@@ -59,6 +59,63 @@
     <neverMultiSelect>true</neverMultiSelect>
     <!-- <minifiedDef>MinifiedFurniture</minifiedDef> -->
   </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>sd_bridges_doubledrawbridge_up</defName>
+    <label>double draw bridge up</label>
+    <thingClass>sd_bridges.Building_sd_bridges_doubledrawbridge_up</thingClass>
+    <description>double drawbridge up.</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <graphicData>
+      <texPath>sd_bridges/drawbridge/sd_bridges_doubledrawbridge_up</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <size>(2,1)</size>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToMake>2000</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>200</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <Steel>50</Steel>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.9</fillPercent>
+    <tickerType>Never</tickerType>
+    <selectable>true</selectable>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <blockLight>false</blockLight>
+    <blockWind>true</blockWind>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>3</multiplier>
+      </li>
+    </damageMultipliers>
+    <placeWorkers>
+      <li>sd_bridges.PlaceWorker_doubledrawbridge</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>sd_bridges_research_drawbridge</li>
+    </researchPrerequisites>
+    <neverOverlapFloors>true</neverOverlapFloors>
+    <neverMultiSelect>true</neverMultiSelect>
+    <!-- <minifiedDef>MinifiedFurniture</minifiedDef> -->
+  </ThingDef>
   <!--================= drawbridge down ==============-->
   <ThingDef ParentName="BuildingBase">
     <defName>sd_bridges_drawbridge_down</defName>
@@ -111,6 +168,65 @@
     </damageMultipliers>
     <placeWorkers>
       <li>sd_bridges.PlaceWorker_drawbridge</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>sd_bridges_research_drawbridge</li>
+    </researchPrerequisites>
+    <neverOverlapFloors>true</neverOverlapFloors>
+    <neverMultiSelect>true</neverMultiSelect>
+    <!-- <minifiedDef>MinifiedFurniture</minifiedDef> -->
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>sd_bridges_doubledrawbridge_down</defName>
+    <label>double draw bridge up</label>
+    <thingClass>sd_bridges.Building_sd_bridges_doubledrawbridge_down</thingClass>
+    <description>double drawbridge down.</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <category>Building</category>
+    <graphicData>
+      <texPath>sd_bridges/drawbridge/sd_bridges_doubledrawbridge_down</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(4,4)</drawSize>
+    </graphicData>
+    <size>(2,2)</size>
+    <statBases>
+      <MaxHitPoints>600</MaxHitPoints>
+      <WorkToMake>2000</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>200</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <Steel>50</Steel>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.7</fillPercent>
+    <tickerType>Never</tickerType>
+    <selectable>true</selectable>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <blockLight>false</blockLight>
+    <blockWind>true</blockWind>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>3</multiplier>
+      </li>
+    </damageMultipliers>
+    <placeWorkers>
+      <li>sd_bridges.PlaceWorker_doubledrawbridge</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>sd_bridges_research_drawbridge</li>
