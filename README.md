@@ -6,6 +6,7 @@ Update of sulusdacors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=788610933
 
 - Added support for moving water (rivers)
+- Added a double-wide drawbridge
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 

@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using System.Runtime.CompilerServices;
 using RimWorld;
 using Verse;
 using Verse.Sound;
@@ -10,14 +9,13 @@ public class Building_sd_bridges_drawbridge_up : Building_sd_bridges_drawbridge
 {
     public string TerrainTypeAtBaseCellDefAsString;
 
-    [CompilerGenerated]
-    private IEnumerable<Gizmo> FabricatedMethod9()
-    {
-        return base.GetGizmos();
-    }
-
     public override IEnumerable<Gizmo> GetGizmos()
     {
+        foreach (var gizmo in base.GetGizmos())
+        {
+            yield return gizmo;
+        }
+
         var command_Action = new Command_Action
         {
             defaultDesc = "sd_bridges.drawbridge_down_Desc".Translate(),
@@ -28,16 +26,6 @@ public class Building_sd_bridges_drawbridge_up : Building_sd_bridges_drawbridge
             icon = Textures.drawbridge_down
         };
         yield return command_Action;
-        if (FabricatedMethod9() == null)
-        {
-            yield break;
-        }
-
-        foreach (var gizmo in FabricatedMethod9())
-        {
-            var command = (Command)gizmo;
-            yield return command;
-        }
     }
 
     public override void SpawnDrawbridge()
