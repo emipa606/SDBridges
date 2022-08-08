@@ -91,6 +91,32 @@
     <success>Always</success>
     <operations>
       <li Class="PatchOperationTest">
+        <xpath>*/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/TerrainDef[defName = "WaterMovingChestDeep"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationadd">
+        <xpath>*/TerrainDef[defName = "WaterMovingChestDeep"]/affordances</xpath>
+        <value>
+          <li>Bridgeable</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
         <xpath>*/TerrainDef[defName = "WaterShallow"]/affordances</xpath>
         <success>Invert</success>
       </li>
