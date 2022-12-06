@@ -5,6 +5,9 @@
 Update of sulusdacors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=788610933
 
+## Floors and bridges are of the same type in the game, terrainDef. That is why you cannot build floors on bridges, you can only replace one with the other. This is a limitation in the game and nothing I can change
+
+
 - Added support for moving water (rivers)
 - Added a double-wide drawbridge
 
@@ -84,3 +87,4 @@ Changelog in forumtopic or about folder of mod.
 
 
 
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2036488024]Last updated 2022-12-06
