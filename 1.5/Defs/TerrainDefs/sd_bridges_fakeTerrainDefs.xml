@@ -1,0 +1,241 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <TerrainDef Abstract="True" Name="FakeWaterBase" ParentName="WaterBase">
+    <passability>PassThroughOnly</passability>
+    <pathCost>0</pathCost>
+    <filthAcceptanceMask>
+      <li>Unnatural</li>
+    </filthAcceptanceMask>
+    <!-- changed the changeable to true -->
+    <changeable>true</changeable>
+  </TerrainDef>
+  <!--========================= deep water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterDeep</defName>
+    <label>fake deep water</label>
+    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>395</renderPrecedence>
+    <pollutedTexturePath>Terrain/Surfaces/WaterDeepRampPolluted</pollutedTexturePath>
+    <affordances>
+      <li>Bridgeable</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>Water</li>
+    </tags>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= deep water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterOceanDeep</defName>
+    <label>fake deep ocean water</label>
+    <texturePath>Terrain/Surfaces/WaterDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>397</renderPrecedence>
+    <affordances>
+      <li>Bridgeable</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>Water</li>
+    </tags>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= shallow water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterMovingChestDeep</defName>
+    <label>fake chest-deep moving water</label>
+    <texturePath>Terrain/Surfaces/WaterChestDeepRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>399</renderPrecedence>
+    <pollutedTexturePath>Terrain/Surfaces/WaterChestDeepRampPolluted</pollutedTexturePath>
+    <affordances>
+      <li>Bridgeable</li>
+      <li>MovingFluid</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>River</li>
+    </tags>
+    <waterDepthShaderParameters>
+      <_UseWaterOffset>1</_UseWaterOffset>
+    </waterDepthShaderParameters>
+  </TerrainDef>
+  <!--========================= shallow water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterShallow</defName>
+    <label>fake shallow water</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>394</renderPrecedence>
+    <pollutedTexturePath>Terrain/Surfaces/WaterShallowRampPolluted</pollutedTexturePath>
+    <driesTo>Gravel</driesTo>
+    <affordances>
+      <li>ShallowWater</li>
+      <li>Bridgeable</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>Water</li>
+    </tags>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= shallow water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterOceanShallow</defName>
+    <label>fake shallow ocean water</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>396</renderPrecedence>
+    <pollutedTexturePath>Terrain/Surfaces/WaterShallowRampPolluted</pollutedTexturePath>
+    <driesTo>Gravel</driesTo>
+    <affordances>
+      <li>ShallowWater</li>
+      <li>Bridgeable</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>Water</li>
+    </tags>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= shallow water =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeWaterMovingShallow</defName>
+    <label>fake shallow moving water</label>
+    <texturePath>Terrain/Surfaces/WaterShallowRamp</texturePath>
+    <waterDepthShader>Map/WaterDepth</waterDepthShader>
+    <renderPrecedence>398</renderPrecedence>
+    <pollutedTexturePath>Terrain/Surfaces/WaterShallowRampPolluted</pollutedTexturePath>
+    <driesTo>Gravel</driesTo>
+    <affordances>
+      <li>ShallowWater</li>
+      <li>Bridgeable</li>
+    </affordances>
+    <takeSplashes>true</takeSplashes>
+    <tags>
+      <li>River</li>
+    </tags>
+    <waterDepthShaderParameters>
+      <_UseWaterOffset>1</_UseWaterOffset>
+    </waterDepthShaderParameters>
+    <tools>
+      <li>
+        <label>water</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>WaterInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= mud =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeMud</defName>
+    <label>fake mud</label>
+    <texturePath>Terrain/Surfaces/Mud</texturePath>
+    <pollutedTexturePath>Terrain/Surfaces/MudPolluted</pollutedTexturePath>
+    <pollutionOverlayTexturePath>Terrain/Surfaces/PollutionMud</pollutionOverlayTexturePath>
+    <pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
+    <pollutionColor>(1, 1, 1, 1)</pollutionColor>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>330</renderPrecedence>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <takeFootprints>True</takeFootprints>
+    <driesTo>Soil</driesTo>
+    <affordances>
+      <li>Diggable</li>
+      <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
+      <li>Bridgeable</li>
+    </affordances>
+    <tools>
+      <li>
+        <label>mud</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>MudInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+  </TerrainDef>
+  <!--========================= marsh =============================-->
+  <TerrainDef ParentName="FakeWaterBase">
+    <defName>sd_bridges_fakeMarsh</defName>
+    <label>fake marsh</label>
+    <texturePath>Terrain/Surfaces/Marsh</texturePath>
+    <pollutedTexturePath>Terrain/Surfaces/MarshPolluted</pollutedTexturePath>
+    <pollutionOverlayTexturePath>Terrain/Surfaces/MarshPollutionOverlay</pollutionOverlayTexturePath>
+    <pollutionShaderType MayRequire="Ludeon.RimWorld.Biotech">TerrainFadeRoughSoftLight</pollutionShaderType>
+    <pollutionOverlayScrollSpeed>0.007</pollutionOverlayScrollSpeed>
+    <pollutionOverlayScale>(0.8, 0.8)</pollutionOverlayScale>
+    <edgeType>FadeRough</edgeType>
+    <renderPrecedence>325</renderPrecedence>
+    <statBases>
+      <Beauty>-2</Beauty>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <generatedFilth>Filth_Dirt</generatedFilth>
+    <takeFootprints>True</takeFootprints>
+    <driesTo>Soil</driesTo>
+    <affordances>
+      <li>Diggable</li>
+      <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
+      <li>ShallowWater</li>
+      <li>Bridgeable</li>
+    </affordances>
+    <tools>
+      <li>
+        <label>mud</label>
+        <capacities>
+          <li>KickMaterialInEyes</li>
+        </capacities>
+        <hediff>MudInEyes</hediff>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+    </tools>
+    <takeSplashes>true</takeSplashes>
+  </TerrainDef>
+</Defs>

@@ -22,13 +22,13 @@ public class Building_sd_bridges_drawbridge_up : Building_sd_bridges_drawbridge
             defaultLabel = "sd_bridges.drawbridge_down_Lable".Translate(),
             activateSound = SoundDef.Named("Click"),
             action = SpawnDrawbridge,
-            disabled = false,
+            Disabled = false,
             icon = Textures.drawbridge_down
         };
         yield return command_Action;
     }
 
-    public override void SpawnDrawbridge()
+    protected virtual void SpawnDrawbridge()
     {
         var map = Map;
         var position = Position;
