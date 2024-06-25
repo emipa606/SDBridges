@@ -1,4 +1,4 @@
-# SDBridges
+# [[sd] Bridges (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2036488024)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
@@ -12,10 +12,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=788610933
 - Added a double-wide drawbridge
 
 ![Image](https://i.imgur.com/pufA0kM.png)
-
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
-
 
 not doing anymore updates for any rimworld mods, please feel free to update and upload the mods on steam, i dont mind.
 # "bridges"
@@ -56,9 +54,9 @@ All terrafom options just cost work. To terraform ground to deepwater, you have 
 
 the terrain tiles added are basiclly floors. which mean you can remove them with the "remove floors" command. this will result in the original terrain. the only exception if found is the original deep water will turn to sand terrain. you can terraform deep water with this (faster) by just building shallow water and then remove the floor. as always use or abuse how you like ;)
 
-if you want the options to terraform up to growable soil use the https://ludeon.com/forums/index.php?topic=12934.0]vegetable garden or https://ludeon.com/forums/index.php?topic=11009.0]tilled soil mod. The vegetable garden mod needs to be loaded before the bridges mod in your load order(override some same terraindefs). the tilled soil mod should not matter, since i dont saw any overlap there in what it adds.
+if you want the options to terraform up to growable soil use the [vegetable garden](https://ludeon.com/forums/index.php?topic=12934.0) or [tilled soil](https://ludeon.com/forums/index.php?topic=11009.0) mod. The vegetable garden mod needs to be loaded before the bridges mod in your load order(override some same terraindefs). the tilled soil mod should not matter, since i dont saw any overlap there in what it adds.
 
-(should be fixed with patchoperations) Due to how the game identifies things the Fishing Pier add by the Mod https://ludeon.com/forums/index.php?topic=13172.0]Fishindustry is not compatible with the watertiles added by this mod. you can use my mod https://ludeon.com/forums/index.php?topic=26276.msg276872#msg276872]prepare for fishing to make it compatible.
+(should be fixed with patchoperations) Due to how the game identifies things the Fishing Pier add by the Mod [Fishindustry](https://ludeon.com/forums/index.php?topic=13172.0) is not compatible with the watertiles added by this mod. you can use my mod [prepare for fishing](https://ludeon.com/forums/index.php?topic=26276.msg276872#msg276872) to make it compatible.
 
 i wrote a short paragraph concerning the issues/compatibility with this mod in the forum thread for it.(mostly for other mods/modders interesting i guess). if you interested in that.
 
@@ -79,13 +77,12 @@ Changelog in forumtopic or about folder of mod.
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using [HugsLib](https://steamcommunity.com/workshop/filedetails/?id=818773962) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
 
 
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2036488024]![Image](https://img.shields.io/github/v/release/emipa606/SDBridges?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/SDBridges?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2036488024)

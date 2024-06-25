@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
   <!-- drawbridge -->
   <sd_bridges.drawbridge_up_Lable>drawbridge up</sd_bridges.drawbridge_up_Lable>
@@ -11,6 +11,7 @@
   <sd_bridges.doubledrawbridge_down_Desc>Click to let double drawbridge down</sd_bridges.doubledrawbridge_down_Desc>
   <sd_bridges_drawbridge_not_both_water>Not both tiles are water! (the bridge down needs water tiles below. up it needs 1 below and the one in front.)</sd_bridges_drawbridge_not_both_water>
   <sd_bridges_doubledrawbridge_not_both_water>Not all tiles are water! (the bridge down needs water tiles below. up it needs 1 below and the two in front.)</sd_bridges_doubledrawbridge_not_both_water>
+  <sd_bridges_longdrawbridge_not_all_water>Not all tiles are water! (the bridge down needs water tiles below. up it needs 1 below and the four in front.)</sd_bridges_longdrawbridge_not_all_water>
   <!-- placeworkers desc-->
   <sd_bridges_placeworker_drawbridge_desc>Must be placed on water or marsh terrain.</sd_bridges_placeworker_drawbridge_desc>
   <sd_bridges_placeworker_doubledrawbridge_desc>Must be placed on water or marsh terrain.</sd_bridges_placeworker_doubledrawbridge_desc>

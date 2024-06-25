@@ -19,4 +19,5 @@
   <sd_bridges_placeworker_OnShallowWater_desc>Muss auf flachem Wasser platziert werden.</sd_bridges_placeworker_OnShallowWater_desc>
   <sd_bridges_placeworker_NotOnShallowWater_desc>Dies ist bereits seichtes Wasser.</sd_bridges_placeworker_NotOnShallowWater_desc>
   <sd_bridges_placeworker_notonfoundation_desc>Sie können Pontonbrücken nicht auf Fundamenten errichten.</sd_bridges_placeworker_notonfoundation_desc>
+  <sd_bridges_longdrawbridge_not_all_water>Nicht alle Steine sind Wasser! (die Brücke unten braucht unten Wasserplättchen. oben braucht sie 1 unten und die vier davor).</sd_bridges_longdrawbridge_not_all_water>
 </LanguageData>

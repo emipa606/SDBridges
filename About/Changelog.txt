@@ -1,5 +1,9 @@
 # Changelog for SDBridges
 
+1.5.1 - Improved class inheritance, the wide bridge should now respect both original underlying cells
+Used DeepL to update translations for ChineseSimplified, French, German, Russian
+
+
 1.5.0 - Mod updated for 1.5 and passed autotests
 
 

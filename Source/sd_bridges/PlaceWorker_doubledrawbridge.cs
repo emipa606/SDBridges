@@ -17,7 +17,7 @@ public class PlaceWorker_doubledrawbridge : PlaceWorker
         }
         else
         {
-            result = new AcceptanceReport("sd_bridges_placeworker_doubledrawbridge_desc".Translate());
+            result = new AcceptanceReport("sd_bridges_placeworker_drawbridge_desc".Translate());
         }
 
         return result;
