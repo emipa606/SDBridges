@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/TerrainDef[defName = "BiomesCore_WaterAbyssalDeep"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/TerrainDef[defName = "BiomesCore_WaterAbyssalDeep"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+      <li Class="PatchOperationadd">
+        <xpath>*/TerrainDef[defName = "BiomesCore_WaterAbyssalDeep"]/affordances</xpath>
+        <value>
+          <li>Bridgeable</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/TerrainDef[defName = "BiomesCore_WaterAbyssalDeep"]/changeable</xpath>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>*/TerrainDef[defName = "BiomesCore_WaterShallowLagoon"]/affordances</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>*/TerrainDef[defName = "BiomesCore_WaterShallowLagoon"]</xpath>
+        <value>
+          <affordances />
+        </value>
+      </li>
+      <li Class="PatchOperationadd">
+        <xpath>*/TerrainDef[defName = "BiomesCore_WaterShallowLagoon"]/affordances</xpath>
+        <value>
+          <li>Bridgeable</li>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationRemove">
+        <xpath>/Defs/TerrainDef[defName = "BiomesCore_WaterShallowLagoon"]/changeable</xpath>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

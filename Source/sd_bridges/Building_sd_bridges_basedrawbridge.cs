@@ -22,9 +22,9 @@ public abstract class Building_sd_bridges_basedrawbridge : Building
 
     public static readonly SoundDef sound = SoundDef.Named("ChunkRock_Drop");
 
-    protected IntVec3 BridgeCell = new IntVec3(0, 0, 0);
-    protected IntVec3 BridgeCell2 = new IntVec3(0, 0, 0);
-    protected IntVec3 SecondPosition = new IntVec3(0, 0, 0);
+    protected IntVec3 BridgeCell = new(0, 0, 0);
+    protected IntVec3 BridgeCell2 = new(0, 0, 0);
+    protected IntVec3 SecondPosition = new(0, 0, 0);
     protected string TerrainTypeAtBridgeCellDefAsString;
 
     protected string TerrainTypeAtPositionDefAsString;

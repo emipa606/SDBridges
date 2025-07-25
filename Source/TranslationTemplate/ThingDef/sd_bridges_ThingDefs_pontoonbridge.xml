@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: pontoon bridge -->
+  <sd_bridges_pontoonbridge.label>pontoon bridge</sd_bridges_pontoonbridge.label>
+  <!-- EN: The pontoon bridge can only be placed on water/mud/marsh. It will counter the walking impairment from the terrain. You can not stand on it. It's only a fast water crossing solution. -->
+  <sd_bridges_pontoonbridge.description>The pontoon bridge can only be placed on water/mud/marsh. It will counter the walking impairment from the terrain. You can not stand on it. It's only a fast water crossing solution.</sd_bridges_pontoonbridge.description>
+</LanguageData>

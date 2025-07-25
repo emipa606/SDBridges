@@ -11,6 +11,7 @@
     <li>1.3</li>
     <li>1.4</li>
     <li>1.5</li>
+    <li>1.6</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
@@ -27,7 +28,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=788610933
 
 [table]
 	[tr]
-		[td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
 		[td][url=https://github.com/emipa606/SDBridges][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
     [tr]
@@ -75,12 +76,6 @@ All terrafom options just cost work. To terraform ground to deepwater, you have 
 
 the terrain tiles added are basiclly floors. which mean you can remove them with the "remove floors" command. this will result in the original terrain. the only exception if found is the original deep water will turn to sand terrain. you can terraform deep water with this (faster) by just building shallow water and then remove the floor. as always use or abuse how you like ;)
 
-if you want the options to terraform up to growable soil use the [url=https://ludeon.com/forums/index.php?topic=12934.0]vegetable garden[/url] or [url=https://ludeon.com/forums/index.php?topic=11009.0]tilled soil[/url] mod. The vegetable garden mod needs to be loaded before the bridges mod in your load order(override some same terraindefs). the tilled soil mod should not matter, since i dont saw any overlap there in what it adds.
-
-(should be fixed with patchoperations) Due to how the game identifies things the Fishing Pier add by the Mod [url=https://ludeon.com/forums/index.php?topic=13172.0]Fishindustry[/url] is not compatible with the watertiles added by this mod. you can use my mod [url=https://ludeon.com/forums/index.php?topic=26276.msg276872#msg276872]prepare for fishing[/url] to make it compatible.
-
-i wrote a short paragraph concerning the issues/compatibility with this mod in the forum thread for it.(mostly for other mods/modders interesting i guess). if you interested in that.
-
 [i]Ludeon forum topic:[/i]
 https://ludeon.com/forums/index.php?topic=26276
 
@@ -88,21 +83,17 @@ https://ludeon.com/forums/index.php?topic=26276
 
 source code for modders: https://www.dropbox.com/s/8g2aaapw9yk53eg/sd_bridges_b18_source.7z?dl=0
 
-Dropbox link to folder with old mods in forum topic for the mod.
-Changelog in forumtopic or about folder of mod.
-
-
 [img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
-[/list]
+[/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2036488024][img]https://img.shields.io/github/v/release/emipa606/SDBridges?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.5.1</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2036488024][img]https://img.shields.io/github/v/release/emipa606/SDBridges?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  terraforming</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
 </ModMetaData>

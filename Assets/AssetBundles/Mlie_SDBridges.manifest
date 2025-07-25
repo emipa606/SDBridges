@@ -1,0 +1,42 @@
+ManifestFileVersion: 0
+CRC: 4161592533
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8d3e9d3de7d2733e3f8fb2fd5ce831a9
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2612ac43db082a73502ee80f2eceb73f
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 8d3e9d3de7d2733e3f8fb2fd5ce831a9
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/drawbridge/sd_bridges_doubledrawbridge_down_m.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/menu_icons/sd_bridges_DeepWater_menuicon.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/drawbridge/sd_bridges_doubledrawbridge_up_m.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/menu_icons/sd_bridges_ShallowWater_menuicon.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/drawbridge/sd_bridges_drawbridge_down_m.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/drawbridge/sd_bridges_drawbridge_up_m.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/menu_icons/sd_bridges_linkablepontoonbridge_menuicon.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/Linked/woodbridge_Atlas.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/terrain/sd_bridges_terraform.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/drawbridge/sd_bridges_drawbridge_down.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/UI/sd_bridges_UI_drawbridge_down.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/terrain/sd_bridges_fundamentbase.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/items/sd_bridges_pontoonbridgepart.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/drawbridge/sd_bridges_drawbridge_up.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/menu_icons/sd_bridges_FundamentBase_menuicon.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/drawbridge/sd_bridges_doubledrawbridge_down.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/UI/sd_bridges_UI_drawbridge_up.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/menu_icons/sd_bridges_linkablebridge_menuicon.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/menu_icons/sd_bridges_DigUpWater_menuicon.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/menu_icons/sd_bridges_platform_menuicon.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/drawbridge/sd_bridges_doubledrawbridge_up.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/Linked/pontoonbridge_Atlas.png
+- Assets/Data/Mlie.SDBridges/Textures/sd_bridges/menu_icons/sd_bridges_MarshWater_menuicon.png
+Dependencies: []

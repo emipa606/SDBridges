@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: make foundation material -->
+  <sd_bridges_recipe_foundationmaterial_tablemachin.label>make foundation material</sd_bridges_recipe_foundationmaterial_tablemachin.label>
+  <!-- EN: make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water. -->
+  <sd_bridges_recipe_foundationmaterial_tablemachin.description>make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water.</sd_bridges_recipe_foundationmaterial_tablemachin.description>
+  <!-- EN: Making foundation material. -->
+  <sd_bridges_recipe_foundationmaterial_tablemachin.jobString>Making foundation material.</sd_bridges_recipe_foundationmaterial_tablemachin.jobString>
+  <!-- EN: make foundation material(10) -->
+  <sd_bridges_recipe_foundationmaterial_tablemachin_10times.label>make foundation material(10)</sd_bridges_recipe_foundationmaterial_tablemachin_10times.label>
+  <!-- EN: make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water. -->
+  <sd_bridges_recipe_foundationmaterial_tablemachin_10times.description>make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water.</sd_bridges_recipe_foundationmaterial_tablemachin_10times.description>
+  <!-- EN: Making foundation material. -->
+  <sd_bridges_recipe_foundationmaterial_tablemachin_10times.jobString>Making foundation material.</sd_bridges_recipe_foundationmaterial_tablemachin_10times.jobString>
+  <!-- EN: make foundation material -->
+  <sd_bridges_recipe_foundationmaterial_tablestone.label>make foundation material</sd_bridges_recipe_foundationmaterial_tablestone.label>
+  <!-- EN: make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water. -->
+  <sd_bridges_recipe_foundationmaterial_tablestone.description>make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water.</sd_bridges_recipe_foundationmaterial_tablestone.description>
+  <!-- EN: Making foundation material. -->
+  <sd_bridges_recipe_foundationmaterial_tablestone.jobString>Making foundation material.</sd_bridges_recipe_foundationmaterial_tablestone.jobString>
+  <!-- EN: make foundation material(10) -->
+  <sd_bridges_recipe_foundationmaterial_tablestone_10times.label>make foundation material(10)</sd_bridges_recipe_foundationmaterial_tablestone_10times.label>
+  <!-- EN: make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water. -->
+  <sd_bridges_recipe_foundationmaterial_tablestone_10times.description>make stuff into foundation material(1 steel + 3 stuff = 1 foundation material), used to build structures on water.</sd_bridges_recipe_foundationmaterial_tablestone_10times.description>
+  <!-- EN: Making foundation material. -->
+  <sd_bridges_recipe_foundationmaterial_tablestone_10times.jobString>Making foundation material.</sd_bridges_recipe_foundationmaterial_tablestone_10times.jobString>
+</LanguageData>
