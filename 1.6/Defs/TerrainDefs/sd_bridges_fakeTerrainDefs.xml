@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <TerrainDef Abstract="True" Name="FakeWaterBase" ParentName="WaterBase">
+  <TerrainDef Abstract="True" Name="FakeWaterBase" ParentName="NaturalTerrainBase">
     <passability>PassThroughOnly</passability>
     <pathCost>0</pathCost>
+    <fertility>0</fertility>
     <filthAcceptanceMask>
       <li>Unnatural</li>
     </filthAcceptanceMask>
