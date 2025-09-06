@@ -21,4 +21,8 @@
   <sd_bridges_placeworker_notonfoundation_desc>Vous ne pouvez pas placer de ponton sur des fondations.</sd_bridges_placeworker_notonfoundation_desc>
   <sd_bridges_longdrawbridge_not_all_water>Toutes les tuiles ne sont pas de l'eau ! (le pont en bas a besoin de tuiles d'eau en bas. en haut, il a besoin d'une tuile en bas et des quatre tuiles en avant).</sd_bridges_longdrawbridge_not_all_water>
   <!-- placeworkers desc-->
+  <sd_bridges.tripledrawbridge_up_Lable>triple pont-levis levé</sd_bridges.tripledrawbridge_up_Lable>
+  <sd_bridges.tripledrawbridge_up_Desc>Cliquez pour tirer le triple pont-levis vers le haut</sd_bridges.tripledrawbridge_up_Desc>
+  <sd_bridges.tripledrawbridge_down_Lable>triple pont-levis abaissé</sd_bridges.tripledrawbridge_down_Lable>
+  <sd_bridges.tripledrawbridge_down_Desc>Cliquez pour abaisser le triple pont-levis</sd_bridges.tripledrawbridge_down_Desc>
 </LanguageData>

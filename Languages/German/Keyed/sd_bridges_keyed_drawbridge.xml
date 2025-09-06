@@ -21,4 +21,8 @@
   <sd_bridges_placeworker_notonfoundation_desc>Sie können Pontonbrücken nicht auf Fundamenten errichten.</sd_bridges_placeworker_notonfoundation_desc>
   <sd_bridges_longdrawbridge_not_all_water>Nicht alle Steine sind Wasser! (die Brücke unten braucht unten Wasserplättchen. oben braucht sie 1 unten und die vier davor).</sd_bridges_longdrawbridge_not_all_water>
   <!-- placeworkers desc-->
+  <sd_bridges.tripledrawbridge_up_Lable>dreifache Zugbrücke oben</sd_bridges.tripledrawbridge_up_Lable>
+  <sd_bridges.tripledrawbridge_up_Desc>Klicken, um die dreifache Zugbrücke hochzuziehen</sd_bridges.tripledrawbridge_up_Desc>
+  <sd_bridges.tripledrawbridge_down_Lable>dreifache Zugbrücke unten</sd_bridges.tripledrawbridge_down_Lable>
+  <sd_bridges.tripledrawbridge_down_Desc>Klicken, um die dreifache Zugbrücke herunterzulassen</sd_bridges.tripledrawbridge_down_Desc>
 </LanguageData>

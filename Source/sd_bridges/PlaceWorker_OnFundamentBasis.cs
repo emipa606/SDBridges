@@ -8,7 +8,7 @@ public class PlaceWorker_OnFundamentBasis : PlaceWorker
         Thing thingToIgnore = null, Thing thing = null)
     {
         var named = DefDatabase<TerrainDef>.GetNamed("sd_bridges_FundamentBase");
-        var result = map.terrainGrid.TerrainAt(loc) == named
+        var result = map.terrainGrid.BaseTerrainAt(loc) == named
             ? AcceptanceReport.WasAccepted
             : new AcceptanceReport("sd_bridges_placeworker_OnFundamentBasis_desc".Translate());
 

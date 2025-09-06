@@ -12,8 +12,8 @@ public class PlaceWorker_FundamentBaseNotInDeepWater : PlaceWorker
         var named3 = DefDatabase<TerrainDef>.GetNamed("WaterMovingChestDeep");
         var named4 = DefDatabase<TerrainDef>.GetNamed("sd_bridges_DeepWater");
         AcceptanceReport result;
-        if (map.terrainGrid.TerrainAt(loc) == named || map.terrainGrid.TerrainAt(loc) == named2 ||
-            map.terrainGrid.TerrainAt(loc) == named3 || map.terrainGrid.TerrainAt(loc) == named4)
+        if (map.terrainGrid.BaseTerrainAt(loc) == named || map.terrainGrid.BaseTerrainAt(loc) == named2 ||
+            map.terrainGrid.BaseTerrainAt(loc) == named3 || map.terrainGrid.BaseTerrainAt(loc) == named4)
         {
             result = new AcceptanceReport("sd_bridges_placeworker_FundamentBaseNotInDeepWater_desc".Translate());
         }

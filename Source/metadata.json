@@ -7,9 +7,9 @@
   "Patches": true,
   "Defs": true,
   "Assemblies": true,
-  "LinesOfCode": 31485,
-  "LinesOfXML": 68294,
+  "LinesOfCode": 38629,
+  "LinesOfXML": 72342,
   "CodeBaseSize": 79,
-  "LastXmlCleaning": "2025-08-16T20:04:47.79882+02:00",
+  "LastXmlCleaning": "2025-09-06T20:09:09.7136054+02:00",
   "SearchTags": " terraforming"
 }

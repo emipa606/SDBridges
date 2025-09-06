@@ -24,8 +24,9 @@ public static class Util_sd_bridges
 
     public static bool IsAquaticTerrain(Map map, IntVec3 position)
     {
-        var terrainDef = map.terrainGrid.TerrainAt(position);
-        return terrainDef == TerrainDef.Named("WaterShallow") ||
+        var terrainDef = map.terrainGrid.BaseTerrainAt(position);
+        return terrainDef.IsWater ||
+               terrainDef == TerrainDef.Named("WaterShallow") ||
                terrainDef == TerrainDef.Named("WaterOceanShallow") ||
                terrainDef == TerrainDef.Named("WaterMovingShallow") ||
                terrainDef == TerrainDef.Named("sd_bridges_ShallowWater") ||

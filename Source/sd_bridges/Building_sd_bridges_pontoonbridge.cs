@@ -4,12 +4,12 @@ namespace sd_bridges;
 
 public class Building_sd_bridges_pontoonbridge : Building
 {
-    public string TerrainTypeAtPositionDefAsString;
+    private string TerrainTypeAtPositionDefAsString;
 
     public override void SpawnSetup(Map map, bool respawningAfterLoad)
     {
         base.SpawnSetup(map, respawningAfterLoad);
-        var terrainDef = map.terrainGrid.TerrainAt(Position);
+        var terrainDef = map.terrainGrid.BaseTerrainAt(Position);
         if (terrainDef == TerrainDef.Named("Mud"))
         {
             TerrainTypeAtPositionDefAsString = terrainDef.ToString();

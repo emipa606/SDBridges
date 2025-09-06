@@ -3,12 +3,16 @@
   <!-- drawbridge -->
   <sd_bridges.drawbridge_up_Lable>drawbridge up</sd_bridges.drawbridge_up_Lable>
   <sd_bridges.doubledrawbridge_up_Lable>double drawbridge up</sd_bridges.doubledrawbridge_up_Lable>
+  <sd_bridges.tripledrawbridge_up_Lable>triple drawbridge up</sd_bridges.tripledrawbridge_up_Lable>
   <sd_bridges.drawbridge_up_Desc>Click to pull drawbridge up</sd_bridges.drawbridge_up_Desc>
   <sd_bridges.doubledrawbridge_up_Desc>Click to pull double drawbridge up</sd_bridges.doubledrawbridge_up_Desc>
+  <sd_bridges.tripledrawbridge_up_Desc>Click to pull triple drawbridge up</sd_bridges.tripledrawbridge_up_Desc>
   <sd_bridges.drawbridge_down_Lable>drawbridge down</sd_bridges.drawbridge_down_Lable>
   <sd_bridges.doubledrawbridge_down_Lable>double drawbridge down</sd_bridges.doubledrawbridge_down_Lable>
+  <sd_bridges.tripledrawbridge_down_Lable>triple drawbridge down</sd_bridges.tripledrawbridge_down_Lable>
   <sd_bridges.drawbridge_down_Desc>Click to let drawbridge down</sd_bridges.drawbridge_down_Desc>
   <sd_bridges.doubledrawbridge_down_Desc>Click to let double drawbridge down</sd_bridges.doubledrawbridge_down_Desc>
+  <sd_bridges.tripledrawbridge_down_Desc>Click to let triple drawbridge down</sd_bridges.tripledrawbridge_down_Desc>
   <sd_bridges_drawbridge_not_both_water>Not both tiles are water! (the bridge down needs water tiles below. up it needs 1 below and the one in front.)</sd_bridges_drawbridge_not_both_water>
   <sd_bridges_doubledrawbridge_not_both_water>Not all tiles are water! (the bridge down needs water tiles below. up it needs 1 below and the two in front.)</sd_bridges_doubledrawbridge_not_both_water>
   <sd_bridges_longdrawbridge_not_all_water>Not all tiles are water! (the bridge down needs water tiles below. up it needs 1 below and the four in front.)</sd_bridges_longdrawbridge_not_all_water>

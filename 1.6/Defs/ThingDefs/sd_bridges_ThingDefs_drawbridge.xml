@@ -4,9 +4,9 @@
   <!--================= drawbridge up ==============-->
   <ThingDef ParentName="BuildingBase">
     <defName>sd_bridges_drawbridge_up</defName>
-    <label>draw bridge up</label>
+    <label>draw bridge</label>
     <thingClass>sd_bridges.Building_sd_bridges_drawbridge_up</thingClass>
-    <description>drawbridge up.</description>
+    <description>drawbridge</description>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Standable</passability>
     <graphicData>
@@ -61,9 +61,9 @@
   </ThingDef>
   <ThingDef ParentName="BuildingBase">
     <defName>sd_bridges_doubledrawbridge_up</defName>
-    <label>double draw bridge up</label>
+    <label>double draw bridge</label>
     <thingClass>sd_bridges.Building_sd_bridges_doubledrawbridge_up</thingClass>
-    <description>double drawbridge up.</description>
+    <description>double drawbridge</description>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Standable</passability>
     <graphicData>
@@ -108,6 +108,63 @@
     </damageMultipliers>
     <placeWorkers>
       <li>sd_bridges.PlaceWorker_doubledrawbridge</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>sd_bridges_research_drawbridge</li>
+    </researchPrerequisites>
+    <neverOverlapFloors>true</neverOverlapFloors>
+    <neverMultiSelect>true</neverMultiSelect>
+    <!-- <minifiedDef>MinifiedFurniture</minifiedDef> -->
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>sd_bridges_tripledrawbridge_up</defName>
+    <label>triple draw bridge</label>
+    <thingClass>sd_bridges.Building_sd_bridges_tripledrawbridge_up</thingClass>
+    <description>triple drawbridge</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <graphicData>
+      <texPath>sd_bridges/drawbridge/sd_bridges_tripledrawbridge_up</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(6,4)</drawSize>
+    </graphicData>
+    <size>(3,1)</size>
+    <statBases>
+      <MaxHitPoints>900</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>300</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <Steel>75</Steel>
+      <WoodLog>15</WoodLog>
+    </costList>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.9</fillPercent>
+    <tickerType>Never</tickerType>
+    <selectable>true</selectable>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <blockLight>false</blockLight>
+    <blockWind>true</blockWind>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>3</multiplier>
+      </li>
+    </damageMultipliers>
+    <placeWorkers>
+      <li>sd_bridges.PlaceWorker_tripledrawbridge</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>sd_bridges_research_drawbridge</li>
@@ -227,6 +284,65 @@
     </damageMultipliers>
     <placeWorkers>
       <li>sd_bridges.PlaceWorker_doubledrawbridge</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>sd_bridges_research_drawbridge</li>
+    </researchPrerequisites>
+    <neverOverlapFloors>true</neverOverlapFloors>
+    <neverMultiSelect>true</neverMultiSelect>
+    <!-- <minifiedDef>MinifiedFurniture</minifiedDef> -->
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>sd_bridges_tripledrawbridge_down</defName>
+    <label>triple draw bridge up</label>
+    <thingClass>sd_bridges.Building_sd_bridges_tripledrawbridge_down</thingClass>
+    <description>triple drawbridge down.</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <category>Building</category>
+    <graphicData>
+      <texPath>sd_bridges/drawbridge/sd_bridges_tripledrawbridge_down</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(6,4)</drawSize>
+    </graphicData>
+    <size>(3,2)</size>
+    <statBases>
+      <MaxHitPoints>900</MaxHitPoints>
+      <WorkToMake>3000</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>300</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <Steel>75</Steel>
+      <WoodLog>15</WoodLog>
+    </costList>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.7</fillPercent>
+    <tickerType>Never</tickerType>
+    <selectable>true</selectable>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <blockLight>false</blockLight>
+    <blockWind>true</blockWind>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>3</multiplier>
+      </li>
+    </damageMultipliers>
+    <placeWorkers>
+      <li>sd_bridges.PlaceWorker_tripledrawbridge</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>sd_bridges_research_drawbridge</li>

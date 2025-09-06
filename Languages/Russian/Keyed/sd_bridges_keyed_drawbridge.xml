@@ -21,4 +21,8 @@
   <sd_bridges_placeworker_notonfoundation_desc>Наплавные мосты нельзя устанавливать на фундаменты.</sd_bridges_placeworker_notonfoundation_desc>
   <sd_bridges_longdrawbridge_not_all_water>Не все плитки являются водными! (Для моста вниз нужны плитки воды внизу, а для моста вверх - 1 внизу и четыре впереди).</sd_bridges_longdrawbridge_not_all_water>
   <!-- placeworkers desc-->
+  <sd_bridges.tripledrawbridge_up_Lable>тройной разводной мост</sd_bridges.tripledrawbridge_up_Lable>
+  <sd_bridges.tripledrawbridge_up_Desc>Нажмите, чтобы поднять тройной разводной мост</sd_bridges.tripledrawbridge_up_Desc>
+  <sd_bridges.tripledrawbridge_down_Lable>тройной разводной мост</sd_bridges.tripledrawbridge_down_Lable>
+  <sd_bridges.tripledrawbridge_down_Desc>Нажмите, чтобы опустить тройной разводной мост</sd_bridges.tripledrawbridge_down_Desc>
 </LanguageData>

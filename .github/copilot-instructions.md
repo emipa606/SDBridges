@@ -1,47 +1,67 @@
-# GitHub Copilot Instructions for RimWorld Modding Project
+# GitHub Copilot Instructions for [sd] Bridges (Continued) Mod Development
+
+Welcome to the development guide for the [sd] Bridges (Continued) mod for RimWorld, developed in C#. This document provides an overview of the mod, key features, coding conventions, XML integration, Harmony patching, and suggestions for using GitHub Copilot effectively.
 
 ## Mod Overview and Purpose
 
-This project is a mod for RimWorld that enhances the bridge-building mechanics in the game. It introduces various new bridge types and expands the terrain manipulation capabilities of players, allowing them to channel water flows and build functional and aesthetic bridge structures over different types of water and terrain.
+The [sd] Bridges (Continued) mod enhances RimWorld by providing extended functionality for terrain manipulation and bridge creation over water. It builds on the original mod by sulusdacors, featuring updates such as moving water support and new bridge types.
+
+**Purpose**: 
+- Expand base-building options in RimWorld, allowing for more creative and strategic layouts.
+- Introduce new research projects and materials to offer players unique gameplay mechanics.
 
 ## Key Features and Systems
 
-- **Multiple Bridge Types**: The mod provides several bridge types, including drawbridges (both single and double), pontoon bridges, and various other forms compatible with different terrain conditions.
+- **Bridge Construction**:
+  - Implement three research projects: bridges, drawbridge, and terraforming.
+  - Provide different types of bridges, including linkable wood and pontoon bridges, as well as double-wide drawbridges.
+  - Allow foundation placement for building on shallow water types.
+  
+- **Terraforming**:
+  - Introduce terraforming to change terrain from solid ground to deep water and vice versa.
+  - Create a dedicated terraforming category in the architect menu.
 
-- **Terrain Manipulation**: Enhanced terrain transformation mechanics allow for changing water and marshland into walkable or buildable surfaces, providing strategic options and expansion opportunities.
-
-- **Place Workers**: Custom place workers ensure that the bridges and terrain manipulation structures can only be placed on appropriate surfaces, adding realistic constraints and gameplay depth.
+- **Materials & Recipes**:
+  - Add two new materials, foundation material and pontoons, with associated recipes available at the stonecutter and machining tables.
 
 ## Coding Patterns and Conventions
 
-- **Class Hierarchy**: The mod follows a clear class hierarchy based on the functionalities:
-  - Base class `Building_sd_bridges_basedrawbridge` contains shared behaviors for drawbridges.
-  - Derived classes such as `Building_sd_bridges_doubledrawbridge_down` and `Building_sd_bridges_drawbridge_up` extend the base functionality to provide specific types of drawbridges.
-
-- **Naming Conventions**: Class and method names follow the PascalCase convention, ensuring consistency and readability. The prefix `Building_sd_bridges_` or `PlaceWorker_` clearly denotes the purpose and category of each class.
-
-- **Helper Classes**: Utility classes like `Util_sd_bridges` and `Textures` are used to encapsulate shared logic and resources, promoting code reuse and modular design.
+- **Organization**:
+  - Follow a clear file and class structure to separate different functionality, such as different types of bridges and terrain classes.
+  
+- **Naming Conventions**:
+  - Use `PascalCase` for class names (e.g., `Building_sd_bridges_drawbridge_up`).
+  - Use `camelCase` for method names and local variables.
+  
+- **Abstraction and Inheritance**:
+  - Utilize abstract classes to define base behavior for bridge-related classes (e.g., `Building_sd_bridges_basedrawbridge`).
 
 ## XML Integration
 
-The XML files are essential to the mod, as they define the game's content to be loaded. While there were issues parsing the XML in this summary, ensure that each XML file is correctly formatted to tie the C# code with the game assets, such as textures, structure definitions, and placement rules. Regularly validate your XML files against RimWorld’s schema.
+- Use XML for defining new terrain and building types under `terrainDefs` and `thingDefs`.
+- Define complex multi-step recipes and research requirements in XML to integrate with the existing game structures.
+- Ensure compatibility with other mods through careful use of XML Patch Operations (PatchOps).
 
 ## Harmony Patching
 
-The mod does not currently list specific Harmony patches, which suggests it either does not alter existing game functionality or that Harmony patches are planned but not yet implemented.
-
-- **Suggestions for Harmony**: Consider using Harmony to apply patches for methods within the base game that interact with bridge placement or terrain manipulation. This would extend compatibility and mod extensibility without altering base game timings or behaviors directly.
+- Given that some core game mechanics are unmodifiable directly, use Harmony for runtime code alterations.
+- Create patches where necessary to enable or adjust game behaviors that are not accessible through normal modding methods.
 
 ## Suggestions for Copilot
 
-To effectively utilize GitHub Copilot in this project:
+- **Bridge Mechanics**:
+  - Suggest functions for calculating appropriate terrain placement for bridges and platforms.
+  - Enhance PlaceWorker logic for correct foundation and bridge placement in-game.
 
-- **Use Copilot for Code Suggestions**: When writing new classes or methods, such as additional bridge types or new place workers, leverage Copilot to suggest boilerplate code based on existing patterns in the project.
+- **Terraforming Logic**:
+  - Propose methods for unique terrain transitions and ensure seamless integration with existing game visuals.
+  
+- **Performance Optimizations**:
+  - Identify opportunities to streamline large computations, such as the work intensive processes of terraforming.
+  - Assist in writing efficient bulk recipe processing functions.
 
-- **Generate XML Configurations**: While Copilot struggled with XML in this summary, it can successfully suggest new XML elements based on existing game data and previous XML structures once addressed.
+- **Testing and Compatibility**:
+  - Suggest unit tests to ensure newly proposed game actions behave as expected.
+  - Provide insights on potential conflicts with other mods or game updates.
 
-- **Refactor and Optimize**: Use Copilot to refactor existing code for improved clarity and performance. It can assist in identifying patterns and provide suggestions to streamline complex logic.
-
-- **Documenting Code**: Prompt Copilot to assist in generating comments and documentation, ensuring each class and method has clear explanations about its behavior and purpose.
-
-By following these guidelines and leveraging Copilot effectively, you can enhance your mod development process, creating a robust and well-integrated RimWorld mod.
+With these guidelines, GitHub Copilot can be leveraged effectively to maintain and extend the [sd] Bridges (Continued) mod's functionality, ensuring a smooth development process and high-quality gaming experience.

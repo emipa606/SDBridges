@@ -1,5 +1,11 @@
 # Changelog for SDBridges
 
+1.6.2 - Added 3-wide drawbridge
+Drawbridge now works with temporary terrain like thin ice and flooding
+Should now be buildable on all water-like terrains
+Used DeepL to update translations for ChineseSimplified, French, German, Russian
+
+
 1.6.1 - Added fix for Vehicles Framework
 
 

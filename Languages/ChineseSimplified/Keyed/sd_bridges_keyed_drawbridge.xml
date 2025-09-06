@@ -21,4 +21,8 @@
   <sd_bridges_placeworker_notonfoundation_desc>你不能把浮桥放在地基上。</sd_bridges_placeworker_notonfoundation_desc>
   <sd_bridges_longdrawbridge_not_all_water>不是所有的瓷砖都是水！(桥下需要下面的水砖，桥上需要下面的 1 块砖和前面的 4 块砖）。</sd_bridges_longdrawbridge_not_all_water>
   <!-- placeworkers desc-->
+  <sd_bridges.tripledrawbridge_up_Lable>三重吊桥</sd_bridges.tripledrawbridge_up_Lable>
+  <sd_bridges.tripledrawbridge_up_Desc>点击拉起三重吊桥</sd_bridges.tripledrawbridge_up_Desc>
+  <sd_bridges.tripledrawbridge_down_Lable>三重吊桥</sd_bridges.tripledrawbridge_down_Lable>
+  <sd_bridges.tripledrawbridge_down_Desc>点击可放下三重吊桥</sd_bridges.tripledrawbridge_down_Desc>
 </LanguageData>
