@@ -51,6 +51,8 @@ public abstract class Building_sd_bridges_basedrawbridge : Building
     protected string TerrainTypeAtThirdPositionDefAsString;
     protected IntVec3 ThirdPosition = new(0, 0, 0);
 
+    public bool WantsDrawing;
+
     protected virtual void DoDustPuff()
     {
         FleckMaker.ThrowDustPuff(Position, Map, 1f);
@@ -64,33 +66,47 @@ public abstract class Building_sd_bridges_basedrawbridge : Building
             yield return gizmo;
         }
 
-        if (def.defName.EndsWith("_down"))
+        var activateSound = SoundDef.Named("Click");
+        var label = "sd_bridges.drawbridge_up_Lable".Translate();
+        var description = "sd_bridges.drawbridge_up_Desc".Translate();
+        var icon = Textures.drawbridge_up;
+        var action = SpawnDrawbridge;
+
+        if (!def.defName.EndsWith("_down"))
         {
-            yield return new Command_Action
-            {
-                defaultDesc = "sd_bridges.drawbridge_up_Desc".Translate(),
-                defaultLabel = "sd_bridges.drawbridge_up_Lable".Translate(),
-                activateSound = SoundDef.Named("Click"),
-                action = SpawnDrawbridge,
-                Disabled = false,
-                icon = Textures.drawbridge_up
-            };
+            label = "sd_bridges.drawbridge_down_Lable".Translate();
+            description = "sd_bridges.drawbridge_down_Desc".Translate();
+            icon = Textures.drawbridge_down;
         }
-        else
+
+        if (sd_bridgesMod.instance.Settings.UseJob)
         {
-            yield return new Command_Action
+            yield return new Command_Toggle
             {
-                defaultDesc = "sd_bridges.drawbridge_down_Desc".Translate(),
-                defaultLabel = "sd_bridges.drawbridge_down_Lable".Translate(),
-                activateSound = SoundDef.Named("Click"),
-                action = SpawnDrawbridge,
+                defaultDesc = description,
+                defaultLabel = label,
+                activateSound = activateSound,
+                isActive = () => WantsDrawing,
                 Disabled = false,
-                icon = Textures.drawbridge_down
+                icon = icon,
+                toggleAction = () => WantsDrawing = !WantsDrawing
             };
+
+            yield break;
         }
+
+        yield return new Command_Action
+        {
+            defaultDesc = description,
+            defaultLabel = label,
+            activateSound = activateSound,
+            action = action,
+            Disabled = false,
+            icon = icon
+        };
     }
 
-    protected abstract void SpawnDrawbridge();
+    protected internal abstract void SpawnDrawbridge();
 
     protected void SetTerrain(IntVec3 position, ref string defAsStringField)
     {

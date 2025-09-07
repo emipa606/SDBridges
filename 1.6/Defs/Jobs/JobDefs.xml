@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <JobDef>
+    <defName>sd_bridges_DrawBridge</defName>
+    <driverClass>sd_bridges.JobDriver_DrawBridge</driverClass>
+    <reportString>using drawbridge.</reportString>
+    <allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+  </JobDef>
+</Defs>

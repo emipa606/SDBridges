@@ -6,7 +6,7 @@ namespace sd_bridges;
 
 public class Building_sd_bridges_tripledrawbridge_up : Building_sd_bridges_basedrawbridge
 {
-    protected override void SpawnDrawbridge()
+    protected internal override void SpawnDrawbridge()
     {
         var map = Map;
         var position = Position;

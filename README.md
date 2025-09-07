@@ -9,7 +9,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=788610933
 
 
 - Added support for moving water (rivers)
-- Added a double-wide drawbridge
+- Added double, triple and quad-wide drawbridges
+- Added option to make the drawbridge action be done by a pawn instead of an instant action
 
 ![Image](https://i.imgur.com/pufA0kM.png)
 	

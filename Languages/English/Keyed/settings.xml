@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <sd_bridges.UseJob>Pawns operate the draw-bridges</sd_bridges.UseJob>
+  <sd_bridges.UseJobTT>Instead of being an instant action, a pawn will need to operate the drawbridges manually</sd_bridges.UseJobTT>
+  <sd_bridges.CurrentModVersion>Installed mod-version: {0}</sd_bridges.CurrentModVersion>
+</LanguageData>

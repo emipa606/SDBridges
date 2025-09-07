@@ -22,7 +22,8 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=788610933
 [h2]Floors and bridges are of the same type in the game, terrainDef. That is why you cannot build floors on bridges, you can only replace one with the other. This is a limitation in the game and nothing I can change[/h2]
 
 - Added support for moving water (rivers)
-- Added a double-wide drawbridge
+- Added double, triple and quad-wide drawbridges
+- Added option to make the drawbridge action be done by a pawn instead of an instant action
 
 [img]https://i.imgur.com/pufA0kM.png[/img]
 
@@ -95,5 +96,5 @@ source code for modders: https://www.dropbox.com/s/8g2aaapw9yk53eg/sd_bridges_b1
 [/list] 
 
 [url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2036488024][img]https://img.shields.io/github/v/release/emipa606/SDBridges?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  terraforming</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.3</modVersion>
+  <modVersion IgnoreIfNoMatchingField="True">1.6.4</modVersion>
 </ModMetaData>

@@ -1,5 +1,9 @@
 # Changelog for SDBridges
 
+1.6.4 - Added mod-option for making pawns operate the drawbridge instead
+Used DeepL to update translations for ChineseSimplified, French, German, Russian
+
+
 1.6.3 - Better error handling, added a 4x drawbridge
 Used DeepL to update translations for ChineseSimplified, French, German, Russian
 

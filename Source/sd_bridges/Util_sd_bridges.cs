@@ -4,6 +4,8 @@ namespace sd_bridges;
 
 public static class Util_sd_bridges
 {
+    public static JobDef Sd_bridges_drawbridge => DefDatabase<JobDef>.GetNamedSilentFail("sd_bridges_DrawBridge");
+
     public static TerrainDef Sd_bridges_fakeMudDef => TerrainDef.Named("sd_bridges_fakeMud");
 
     public static TerrainDef Sd_bridges_fakeMarshDef => TerrainDef.Named("sd_bridges_fakeMarsh");
