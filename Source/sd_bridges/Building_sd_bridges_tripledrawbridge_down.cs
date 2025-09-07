@@ -46,12 +46,12 @@ public class Building_sd_bridges_tripledrawbridge_down : Building_sd_bridges_bas
 
     public override void Destroy(DestroyMode mode = DestroyMode.Vanish)
     {
-        Map.terrainGrid.SetTerrain(Position, TerrainDef.Named(TerrainTypeAtPositionDefAsString));
-        Map.terrainGrid.SetTerrain(SecondPosition, TerrainDef.Named(TerrainTypeAtSecondPositionDefAsString));
-        Map.terrainGrid.SetTerrain(ThirdPosition, TerrainDef.Named(TerrainTypeAtThirdPositionDefAsString));
-        Map.terrainGrid.SetTerrain(BridgeCell, TerrainDef.Named(TerrainTypeAtBridgeCellDefAsString));
-        Map.terrainGrid.SetTerrain(BridgeCell2, TerrainDef.Named(TerrainTypeAtSecondBridgeCellDefAsString));
-        Map.terrainGrid.SetTerrain(BridgeCell3, TerrainDef.Named(TerrainTypeAtThirdBridgeCellDefAsString));
+        Util_sd_bridges.TrySetTerrain(Position, Map, TerrainTypeAtPositionDefAsString);
+        Util_sd_bridges.TrySetTerrain(SecondPosition, Map, TerrainTypeAtSecondPositionDefAsString);
+        Util_sd_bridges.TrySetTerrain(ThirdPosition, Map, TerrainTypeAtThirdPositionDefAsString);
+        Util_sd_bridges.TrySetTerrain(BridgeCell, Map, TerrainTypeAtBridgeCellDefAsString);
+        Util_sd_bridges.TrySetTerrain(BridgeCell2, Map, TerrainTypeAtSecondBridgeCellDefAsString);
+        Util_sd_bridges.TrySetTerrain(BridgeCell3, Map, TerrainTypeAtThirdBridgeCellDefAsString);
         base.Destroy(mode);
     }
 

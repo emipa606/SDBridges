@@ -26,14 +26,24 @@ public abstract class Building_sd_bridges_basedrawbridge : Building
     protected static readonly ThingDef sd_bridges_tripledrawbridge_down =
         DefDatabase<ThingDef>.GetNamed("sd_bridges_tripledrawbridge_down");
 
+    protected static readonly ThingDef sd_bridges_quaddrawbridge_up =
+        DefDatabase<ThingDef>.GetNamed("sd_bridges_quaddrawbridge_up");
+
+    protected static readonly ThingDef sd_bridges_quaddrawbridge_down =
+        DefDatabase<ThingDef>.GetNamed("sd_bridges_quaddrawbridge_down");
+
     private static readonly SoundDef sound = SoundDef.Named("ChunkRock_Drop");
 
     protected IntVec3 BridgeCell = new(0, 0, 0);
     protected IntVec3 BridgeCell2 = new(0, 0, 0);
     protected IntVec3 BridgeCell3 = new(0, 0, 0);
+    protected IntVec3 BridgeCell4 = new(0, 0, 0);
+    protected IntVec3 FourthPosition = new(0, 0, 0);
     protected IntVec3 SecondPosition = new(0, 0, 0);
 
     protected string TerrainTypeAtBridgeCellDefAsString;
+    protected string TerrainTypeAtFourthBridgeCellDefAsString;
+    protected string TerrainTypeAtFourthPositionDefAsString;
     protected string TerrainTypeAtPositionDefAsString;
     protected string TerrainTypeAtSecondBridgeCellDefAsString;
     protected string TerrainTypeAtSecondPositionDefAsString;
@@ -167,8 +177,10 @@ public abstract class Building_sd_bridges_basedrawbridge : Building
 
         SecondPosition = Position + new IntVec3(1, 0, 0).RotatedBy(Rotation);
         ThirdPosition = Position + new IntVec3(-1, 0, 0).RotatedBy(Rotation);
+        FourthPosition = Position + new IntVec3(2, 0, 0).RotatedBy(Rotation);
         BridgeCell = Position + new IntVec3(0, 0, 1).RotatedBy(Rotation);
         BridgeCell2 = Position + new IntVec3(1, 0, 1).RotatedBy(Rotation);
         BridgeCell3 = Position + new IntVec3(-1, 0, 1).RotatedBy(Rotation);
+        BridgeCell4 = Position + new IntVec3(2, 0, 1).RotatedBy(Rotation);
     }
 }

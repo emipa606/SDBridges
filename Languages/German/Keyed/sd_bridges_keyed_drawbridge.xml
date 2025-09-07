@@ -25,4 +25,8 @@
   <sd_bridges.tripledrawbridge_up_Desc>Klicken, um die dreifache Zugbrücke hochzuziehen</sd_bridges.tripledrawbridge_up_Desc>
   <sd_bridges.tripledrawbridge_down_Lable>dreifache Zugbrücke unten</sd_bridges.tripledrawbridge_down_Lable>
   <sd_bridges.tripledrawbridge_down_Desc>Klicken, um die dreifache Zugbrücke herunterzulassen</sd_bridges.tripledrawbridge_down_Desc>
+  <sd_bridges.quaddrawbridge_up_Lable>Vierfache Zugbrücke oben</sd_bridges.quaddrawbridge_up_Lable>
+  <sd_bridges.quaddrawbridge_up_Desc>Klicken Sie, um die vierfache Zugbrücke hochzuziehen</sd_bridges.quaddrawbridge_up_Desc>
+  <sd_bridges.quaddrawbridge_down_Lable>Vierfache Zugbrücke unten</sd_bridges.quaddrawbridge_down_Lable>
+  <sd_bridges.quaddrawbridge_down_Desc>Klicken Sie, um vier Zugbrücken herunterzulassen</sd_bridges.quaddrawbridge_down_Desc>
 </LanguageData>

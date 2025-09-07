@@ -22,6 +22,20 @@ public static class Util_sd_bridges
     public static TerrainDef Sd_bridges_fakeWaterMovingChestDeepDef =>
         TerrainDef.Named("sd_bridges_fakeWaterMovingChestDeep");
 
+    public static void TrySetTerrain(IntVec3 intVec3, Map map, string terrainDefString)
+    {
+        if (string.IsNullOrEmpty(terrainDefString))
+        {
+            return;
+        }
+
+        var terrain = DefDatabase<TerrainDef>.GetNamedSilentFail(terrainDefString);
+        if (terrain != null)
+        {
+            map.terrainGrid.SetTerrain(intVec3, terrain);
+        }
+    }
+
     public static bool IsAquaticTerrain(Map map, IntVec3 position)
     {
         var terrainDef = map.terrainGrid.BaseTerrainAt(position);

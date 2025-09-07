@@ -25,4 +25,8 @@
   <sd_bridges.tripledrawbridge_up_Desc>Cliquez pour tirer le triple pont-levis vers le haut</sd_bridges.tripledrawbridge_up_Desc>
   <sd_bridges.tripledrawbridge_down_Lable>triple pont-levis abaissé</sd_bridges.tripledrawbridge_down_Lable>
   <sd_bridges.tripledrawbridge_down_Desc>Cliquez pour abaisser le triple pont-levis</sd_bridges.tripledrawbridge_down_Desc>
+  <sd_bridges.quaddrawbridge_up_Lable>Pont-levis quadruple en haut</sd_bridges.quaddrawbridge_up_Lable>
+  <sd_bridges.quaddrawbridge_up_Desc>Cliquez pour tirer le pont-levis quadruple vers le haut</sd_bridges.quaddrawbridge_up_Desc>
+  <sd_bridges.quaddrawbridge_down_Lable>pont-levis quadruple en bas</sd_bridges.quaddrawbridge_down_Lable>
+  <sd_bridges.quaddrawbridge_down_Desc>Cliquez pour faire descendre le pont-levis quadruple</sd_bridges.quaddrawbridge_down_Desc>
 </LanguageData>

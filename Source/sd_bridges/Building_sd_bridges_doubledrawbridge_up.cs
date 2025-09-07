@@ -41,8 +41,8 @@ public class Building_sd_bridges_doubledrawbridge_up : Building_sd_bridges_based
 
     public override void Destroy(DestroyMode mode = DestroyMode.Vanish)
     {
-        Map.terrainGrid.SetTerrain(Position, TerrainDef.Named(TerrainTypeAtPositionDefAsString));
-        Map.terrainGrid.SetTerrain(SecondPosition, TerrainDef.Named(TerrainTypeAtSecondPositionDefAsString));
+        Util_sd_bridges.TrySetTerrain(Position, Map, TerrainTypeAtPositionDefAsString);
+        Util_sd_bridges.TrySetTerrain(SecondPosition, Map, TerrainTypeAtSecondPositionDefAsString);
         base.Destroy(mode);
     }
 

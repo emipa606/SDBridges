@@ -25,4 +25,8 @@
   <sd_bridges.tripledrawbridge_up_Desc>点击拉起三重吊桥</sd_bridges.tripledrawbridge_up_Desc>
   <sd_bridges.tripledrawbridge_down_Lable>三重吊桥</sd_bridges.tripledrawbridge_down_Lable>
   <sd_bridges.tripledrawbridge_down_Desc>点击可放下三重吊桥</sd_bridges.tripledrawbridge_down_Desc>
+  <sd_bridges.quaddrawbridge_up_Lable>四吊桥</sd_bridges.quaddrawbridge_up_Lable>
+  <sd_bridges.quaddrawbridge_up_Desc>点击拉起四方吊桥</sd_bridges.quaddrawbridge_up_Desc>
+  <sd_bridges.quaddrawbridge_down_Lable>四吊桥下降</sd_bridges.quaddrawbridge_down_Lable>
+  <sd_bridges.quaddrawbridge_down_Desc>点击让四方吊桥下降</sd_bridges.quaddrawbridge_down_Desc>
 </LanguageData>

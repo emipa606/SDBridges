@@ -127,7 +127,7 @@
       <texPath>sd_bridges/drawbridge/sd_bridges_tripledrawbridge_up</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(6,4)</drawSize>
+      <drawSize>(5,4)</drawSize>
     </graphicData>
     <size>(3,1)</size>
     <statBases>
@@ -165,6 +165,63 @@
     </damageMultipliers>
     <placeWorkers>
       <li>sd_bridges.PlaceWorker_tripledrawbridge</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>sd_bridges_research_drawbridge</li>
+    </researchPrerequisites>
+    <neverOverlapFloors>true</neverOverlapFloors>
+    <neverMultiSelect>true</neverMultiSelect>
+    <!-- <minifiedDef>MinifiedFurniture</minifiedDef> -->
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>sd_bridges_quaddrawbridge_up</defName>
+    <label>quad draw bridge</label>
+    <thingClass>sd_bridges.Building_sd_bridges_quaddrawbridge_up</thingClass>
+    <description>quad drawbridge</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <graphicData>
+      <texPath>sd_bridges/drawbridge/sd_bridges_quaddrawbridge_up</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(6,4)</drawSize>
+    </graphicData>
+    <size>(4,1)</size>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <WorkToMake>4000</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>400</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <Steel>100</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.9</fillPercent>
+    <tickerType>Never</tickerType>
+    <selectable>true</selectable>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <blockLight>false</blockLight>
+    <blockWind>true</blockWind>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>3</multiplier>
+      </li>
+    </damageMultipliers>
+    <placeWorkers>
+      <li>sd_bridges.PlaceWorker_quaddrawbridge</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>sd_bridges_research_drawbridge</li>
@@ -304,7 +361,7 @@
       <texPath>sd_bridges/drawbridge/sd_bridges_tripledrawbridge_down</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(6,4)</drawSize>
+      <drawSize>(5,4)</drawSize>
     </graphicData>
     <size>(3,2)</size>
     <statBases>
@@ -343,6 +400,65 @@
     </damageMultipliers>
     <placeWorkers>
       <li>sd_bridges.PlaceWorker_tripledrawbridge</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>sd_bridges_research_drawbridge</li>
+    </researchPrerequisites>
+    <neverOverlapFloors>true</neverOverlapFloors>
+    <neverMultiSelect>true</neverMultiSelect>
+    <!-- <minifiedDef>MinifiedFurniture</minifiedDef> -->
+  </ThingDef>
+  <ThingDef ParentName="BuildingBase">
+    <defName>sd_bridges_quaddrawbridge_down</defName>
+    <label>quad draw bridge up</label>
+    <thingClass>sd_bridges.Building_sd_bridges_quaddrawbridge_down</thingClass>
+    <description>quad drawbridge down.</description>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <category>Building</category>
+    <graphicData>
+      <texPath>sd_bridges/drawbridge/sd_bridges_quaddrawbridge_down</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(6,4)</drawSize>
+    </graphicData>
+    <size>(4,2)</size>
+    <statBases>
+      <MaxHitPoints>1200</MaxHitPoints>
+      <WorkToMake>4000</WorkToMake>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <costStuffCount>400</costStuffCount>
+    <stuffCategories>
+      <li>Metallic</li>
+      <li>Woody</li>
+      <li>Stony</li>
+    </stuffCategories>
+    <costList>
+      <Steel>100</Steel>
+      <WoodLog>20</WoodLog>
+    </costList>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.7</fillPercent>
+    <tickerType>Never</tickerType>
+    <selectable>true</selectable>
+    <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <holdsRoof>true</holdsRoof>
+    <designationCategory>Structure</designationCategory>
+    <blockLight>false</blockLight>
+    <blockWind>true</blockWind>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <isInert>true</isInert>
+    </building>
+    <damageMultipliers>
+      <li>
+        <damageDef>Bomb</damageDef>
+        <multiplier>3</multiplier>
+      </li>
+    </damageMultipliers>
+    <placeWorkers>
+      <li>sd_bridges.PlaceWorker_quaddrawbridge</li>
     </placeWorkers>
     <researchPrerequisites>
       <li>sd_bridges_research_drawbridge</li>

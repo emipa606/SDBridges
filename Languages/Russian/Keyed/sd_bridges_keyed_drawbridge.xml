@@ -25,4 +25,8 @@
   <sd_bridges.tripledrawbridge_up_Desc>Нажмите, чтобы поднять тройной разводной мост</sd_bridges.tripledrawbridge_up_Desc>
   <sd_bridges.tripledrawbridge_down_Lable>тройной разводной мост</sd_bridges.tripledrawbridge_down_Lable>
   <sd_bridges.tripledrawbridge_down_Desc>Нажмите, чтобы опустить тройной разводной мост</sd_bridges.tripledrawbridge_down_Desc>
+  <sd_bridges.quaddrawbridge_up_Lable>четырехъярусный разводной мост</sd_bridges.quaddrawbridge_up_Lable>
+  <sd_bridges.quaddrawbridge_up_Desc>Нажмите, чтобы поднять квадратный разводной мост</sd_bridges.quaddrawbridge_up_Desc>
+  <sd_bridges.quaddrawbridge_down_Lable>опускание разводного моста</sd_bridges.quaddrawbridge_down_Lable>
+  <sd_bridges.quaddrawbridge_down_Desc>Нажмите, чтобы опустить квадратный разводной мост</sd_bridges.quaddrawbridge_down_Desc>
 </LanguageData>
