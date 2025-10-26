@@ -21,20 +21,6 @@
     <affordances>
       <li>Bridgeable</li>
     </affordances>
-    <takeSplashes>true</takeSplashes>
-    <tags>
-      <li>Water</li>
-    </tags>
-    <tools>
-      <li>
-        <label>water</label>
-        <capacities>
-          <li>KickMaterialInEyes</li>
-        </capacities>
-        <hediff>WaterInEyes</hediff>
-        <cooldownTime>1.5</cooldownTime>
-      </li>
-    </tools>
   </TerrainDef>
   <!--========================= deep water =============================-->
   <TerrainDef ParentName="FakeWaterBase">
@@ -46,20 +32,6 @@
     <affordances>
       <li>Bridgeable</li>
     </affordances>
-    <takeSplashes>true</takeSplashes>
-    <tags>
-      <li>Water</li>
-    </tags>
-    <tools>
-      <li>
-        <label>water</label>
-        <capacities>
-          <li>KickMaterialInEyes</li>
-        </capacities>
-        <hediff>WaterInEyes</hediff>
-        <cooldownTime>1.5</cooldownTime>
-      </li>
-    </tools>
   </TerrainDef>
   <!--========================= shallow water =============================-->
   <TerrainDef ParentName="FakeWaterBase">
@@ -73,10 +45,6 @@
       <li>Bridgeable</li>
       <li>MovingFluid</li>
     </affordances>
-    <takeSplashes>true</takeSplashes>
-    <tags>
-      <li>River</li>
-    </tags>
     <waterDepthShaderParameters>
       <_UseWaterOffset>1</_UseWaterOffset>
     </waterDepthShaderParameters>
@@ -94,20 +62,6 @@
       <li>ShallowWater</li>
       <li>Bridgeable</li>
     </affordances>
-    <takeSplashes>true</takeSplashes>
-    <tags>
-      <li>Water</li>
-    </tags>
-    <tools>
-      <li>
-        <label>water</label>
-        <capacities>
-          <li>KickMaterialInEyes</li>
-        </capacities>
-        <hediff>WaterInEyes</hediff>
-        <cooldownTime>1.5</cooldownTime>
-      </li>
-    </tools>
   </TerrainDef>
   <!--========================= shallow water =============================-->
   <TerrainDef ParentName="FakeWaterBase">
@@ -122,20 +76,6 @@
       <li>ShallowWater</li>
       <li>Bridgeable</li>
     </affordances>
-    <takeSplashes>true</takeSplashes>
-    <tags>
-      <li>Water</li>
-    </tags>
-    <tools>
-      <li>
-        <label>water</label>
-        <capacities>
-          <li>KickMaterialInEyes</li>
-        </capacities>
-        <hediff>WaterInEyes</hediff>
-        <cooldownTime>1.5</cooldownTime>
-      </li>
-    </tools>
   </TerrainDef>
   <!--========================= shallow water =============================-->
   <TerrainDef ParentName="FakeWaterBase">
@@ -150,23 +90,9 @@
       <li>ShallowWater</li>
       <li>Bridgeable</li>
     </affordances>
-    <takeSplashes>true</takeSplashes>
-    <tags>
-      <li>River</li>
-    </tags>
     <waterDepthShaderParameters>
       <_UseWaterOffset>1</_UseWaterOffset>
     </waterDepthShaderParameters>
-    <tools>
-      <li>
-        <label>water</label>
-        <capacities>
-          <li>KickMaterialInEyes</li>
-        </capacities>
-        <hediff>WaterInEyes</hediff>
-        <cooldownTime>1.5</cooldownTime>
-      </li>
-    </tools>
   </TerrainDef>
   <!--========================= mud =============================-->
   <TerrainDef ParentName="FakeWaterBase">
@@ -183,24 +109,11 @@
       <Beauty>-2</Beauty>
       <Cleanliness>-2</Cleanliness>
     </statBases>
-    <generatedFilth>Filth_Dirt</generatedFilth>
-    <takeFootprints>True</takeFootprints>
     <driesTo>Soil</driesTo>
     <affordances>
       <li>Diggable</li>
       <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
-      <li>Bridgeable</li>
     </affordances>
-    <tools>
-      <li>
-        <label>mud</label>
-        <capacities>
-          <li>KickMaterialInEyes</li>
-        </capacities>
-        <hediff>MudInEyes</hediff>
-        <cooldownTime>1.5</cooldownTime>
-      </li>
-    </tools>
   </TerrainDef>
   <!--========================= marsh =============================-->
   <TerrainDef ParentName="FakeWaterBase">
@@ -218,25 +131,10 @@
       <Beauty>-2</Beauty>
       <Cleanliness>-2</Cleanliness>
     </statBases>
-    <generatedFilth>Filth_Dirt</generatedFilth>
-    <takeFootprints>True</takeFootprints>
     <driesTo>Soil</driesTo>
     <affordances>
       <li>Diggable</li>
       <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
-      <li>ShallowWater</li>
-      <li>Bridgeable</li>
     </affordances>
-    <tools>
-      <li>
-        <label>mud</label>
-        <capacities>
-          <li>KickMaterialInEyes</li>
-        </capacities>
-        <hediff>MudInEyes</hediff>
-        <cooldownTime>1.5</cooldownTime>
-      </li>
-    </tools>
-    <takeSplashes>true</takeSplashes>
   </TerrainDef>
 </Defs>

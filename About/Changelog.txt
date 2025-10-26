@@ -1,5 +1,8 @@
 # Changelog for SDBridges
 
+1.6.5 - Fixed water tags to allow for better vehicle compatibility
+
+
 1.6.4 - Added mod-option for making pawns operate the drawbridge instead
 Used DeepL to update translations for ChineseSimplified, French, German, Russian
 
