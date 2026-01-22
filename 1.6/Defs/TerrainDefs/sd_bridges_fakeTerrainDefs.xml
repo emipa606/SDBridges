@@ -9,6 +9,8 @@
     </filthAcceptanceMask>
     <!-- changed the changeable to true -->
     <changeable>true</changeable>
+    <holdSnowOrSand>false</holdSnowOrSand>
+    <extinguishesFire>true</extinguishesFire>
   </TerrainDef>
   <!--========================= deep water =============================-->
   <TerrainDef ParentName="FakeWaterBase">

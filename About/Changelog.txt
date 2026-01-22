@@ -1,5 +1,8 @@
 # Changelog for SDBridges
 
+1.6.6 - Added some missing attributes
+
+
 1.6.5 - Fixed water tags to allow for better vehicle compatibility
 
 

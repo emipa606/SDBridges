@@ -1,6 +1,6 @@
 # [[sd] Bridges (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2036488024)
 
-![Image](https://i.postimg.cc/1X4HT06h/Info.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of sulusdacors mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=788610933
@@ -12,9 +12,9 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=788610933
 - Added double, triple and quad-wide drawbridges
 - Added option to make the drawbridge action be done by a pawn instead of an instant action
 
-![Image](https://i.postimg.cc/8csH3dWV/Notice.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.postimg.cc/hvhrw8xB/Original-Description.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
 not doing anymore updates for any rimworld mods, please feel free to update and upload the mods on steam, i dont mind.
 # "bridges"
@@ -62,7 +62,7 @@ https://ludeon.com/forums/index.php?topic=26276
 
 source code for modders: https://www.dropbox.com/s/8g2aaapw9yk53eg/sd_bridges_b18_source.7z?dl=0
 
-![Image](https://i.postimg.cc/x8qR7GH9/Reporting-Issues.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
@@ -76,4 +76,4 @@ source code for modders: https://www.dropbox.com/s/8g2aaapw9yk53eg/sd_bridges_b1
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/SDBridges?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2036488024) | tags:  terraforming
+[![Image](https://img.shields.io/github/v/release/emipa606/SDBridges?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2036488024) | tags: terraforming

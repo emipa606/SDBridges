@@ -25,6 +25,7 @@
     <designationCategory>sd_bridges_category_terraform</designationCategory>
     <fertility>0</fertility>
     <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
+    <holdSnowOrSand>false</holdSnowOrSand>
     <pathCost>12</pathCost>
     <placeWorkers>
       <li>sd_bridges.PlaceWorker_FundamentBaseNotInDeepWater</li>
@@ -305,6 +306,7 @@
       <li>Diggable</li>
       <!-- added diggable here for vegetable garden mod. need this that you can place the soil over here with this -->
     </affordances>
+    <holdSnowOrSand>false</holdSnowOrSand>
     <constructEffect>ConstructDirt</constructEffect>
     <fertility>0</fertility>
     <terrainAffordanceNeeded>Bridgeable</terrainAffordanceNeeded>
