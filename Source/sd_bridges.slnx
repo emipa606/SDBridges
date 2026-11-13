@@ -6,4 +6,44 @@
     <BuildType Name="Release" />
   </Configurations>
   <Project Path="sd_bridges/sd_bridges.csproj" />
+  <Folder Name="/XML/1.7/Defs/Jobs/">
+    <File Path="../1.7/Defs/Jobs/JobDefs.xml" />
+    <File Path="../1.7/Defs/Jobs/WorkGivers.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/RecipeDefs/">
+    <File Path="../1.7/Defs/RecipeDefs/sd_bridges_RecipeDefs_pontoonbridgepart.xml" />
+    <File Path="../1.7/Defs/RecipeDefs/sd_bridges_RecipeDefs.xml" />
+  </Folder>
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/TerrainDefs/">
+    <File Path="../1.7/Defs/TerrainDefs/sd_bridges_fakeTerrainDefs.xml" />
+    <File Path="../1.7/Defs/TerrainDefs/sd_bridges_TerrainDefs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/DesignationCategoryDefs/">
+    <File Path="../1.7/Defs/DesignationCategoryDefs/sd_bridges_DesignationCategoryDefs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/sd_bridges_biomes.xml" />
+    <File Path="../1.7/Patches/sd_bridges_vanillapatch.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/sd_bridges_keyed_drawbridge.xml" />
+    <File Path="../Languages/English/Keyed/settings.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/sd_bridges_ResearchProjectDefs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs/">
+    <File Path="../1.7/Defs/ThingDefs/sd_bridges_ThingDefs_bridge_base.xml" />
+    <File Path="../1.7/Defs/ThingDefs/sd_bridges_ThingDefs_drawbridge.xml" />
+    <File Path="../1.7/Defs/ThingDefs/sd_bridges_ThingDefs_pontoonbridge.xml" />
+    <File Path="../1.7/Defs/ThingDefs/sd_bridges_ThingDefs_terraform.xml" />
+    <File Path="../1.7/Defs/ThingDefs/sd_bridges_ThingDefs_woodbridge.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs_Items/">
+    <File Path="../1.7/Defs/ThingDefs_Items/sd_bridges_ThingDefs_Items_pontoonbridgepart.xml" />
+    <File Path="../1.7/Defs/ThingDefs_Items/sd_bridges_ThingDefs_Items.xml" />
+  </Folder>
 </Solution>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: use drawbridges -->
+  <sd_bridges_DrawBridge.label>use drawbridges</sd_bridges_DrawBridge.label>
+  <!-- EN: using drawbridge -->
+  <sd_bridges_DrawBridge.gerund>using drawbridge</sd_bridges_DrawBridge.gerund>
+  <!-- EN: use drawbridge -->
+  <sd_bridges_DrawBridge.verb>use drawbridge</sd_bridges_DrawBridge.verb>
+</LanguageData>

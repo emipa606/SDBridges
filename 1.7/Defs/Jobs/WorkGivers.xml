@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <WorkGiverDef>
+    <defName>sd_bridges_DrawBridge</defName>
+    <label>use drawbridges</label>
+    <giverClass>sd_bridges.WorkGiver_DrawBridge</giverClass>
+    <workType>BasicWorker</workType>
+    <verb>use drawbridge</verb>
+    <gerund>using drawbridge</gerund>
+    <canBeDoneWhileDrafted>true</canBeDoneWhileDrafted>
+    <priorityInType>500</priorityInType>
+  </WorkGiverDef>
+</Defs>

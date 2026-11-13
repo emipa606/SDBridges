@@ -76,4 +76,4 @@ source code for modders: https://www.dropbox.com/s/8g2aaapw9yk53eg/sd_bridges_b1
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/SDBridges?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2036488024) | tags: terraforming
+[![Image](https://img.shields.io/github/v/release/emipa606/SDBridges?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2036488024) | terraforming
